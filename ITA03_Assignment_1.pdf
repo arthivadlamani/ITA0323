@@ -1,0 +1,4905 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 7
+/Kids [ 4 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0.0 0.0 744.0945 1052.36225 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0.0 0.0 930.118125 1315.45281 ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 10164
+>>
+stream
+q
+1.25 0.0 0.0 1.25 0.0 0.0 cm
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 8 Tf
+9.6 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 51.02362 34.01575 Tm
+(ITA03\055MP Assignment 1 \226 Worked Answers) Tj
+T*
+ET
+BT
+1 0 0 1 518.9 34.01575 Tm
+(Page 1) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 772.3701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 17 Tf
+21 TL
+134.347 0 Td
+(ITA03\055MP \226 ASSIGNMENT 1) Tj
+T*
+-134.347 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 752.3701 cm
+q
+0.266667 0.266667 0.266667 rg
+BT
+1 0 0 1 0 3 Tm
+/F1 9 Tf
+12 TL
+59.21396 0 Td
+(Answers\072 Hexagonal Cellular Network Planning\054 Capacity\054 Interference and Event\055Day Design) Tj
+T*
+-59.21396 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 728.3701 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Coverage\072) Tj
+/F1 9 Tf
+( Tasks 1\22612 \05050 marks\051 \174 ) Tj
+/F2 9 Tf
+(Format\072) Tj
+/F1 9 Tf
+( Aim\054 explanation\054 tables\054 calculations and Python implementation\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 693.3701 cm
+q
+0.94902 0.956863 0.968627 rg
+n
+-5 -5 502.5669 40 re
+f*
+Q
+q
+BT
+1 0 0 1 0 22 Tm
+10 TL
+/F2 8 Tf
+0.333333 0.333333 0.333333 rg
+(Important\072) Tj
+/F1 8 Tf
+( This is a worked planning model using stated assumptions\054 not measured field data\056 The assignment asks students to generate) Tj
+T*
+(and defend their own simulation evidence\056 Run the included code\054 retain its CSV output\054 and replace illustrative estimates with your actual) Tj
+T*
+(run results before submission\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 674.3701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(Common planning assumptions) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 495.3701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 175 524.4094 -17.5 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.5 Tf
+9.5 TL
+ET
+BT
+1 0 0 1 5 163.5 Tm
+(Parameter) Tj
+T*
+ET
+BT
+1 0 0 1 126.8898 163.5 Tm
+(Adopted value) Tj
+T*
+ET
+BT
+1 0 0 1 234.6063 163.5 Tm
+(Reason \057 use) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.5 Tf
+9.5 TL
+ET
+BT
+1 0 0 1 5 146 Tm
+(Township area) Tj
+T*
+ET
+BT
+1 0 0 1 126.8898 146 Tm
+(12 km\262) Tj
+T*
+ET
+BT
+1 0 0 1 234.6063 146 Tm
+(Given in the question) Tj
+T*
+ET
+BT
+1 0 0 1 5 128.5 Tm
+(Available duplex traffic channels) Tj
+T*
+ET
+BT
+1 0 0 1 126.8898 128.5 Tm
+(336) Tj
+T*
+ET
+BT
+1 0 0 1 234.6063 128.5 Tm
+(Given\054 after control\055channel overhead) Tj
+T*
+ET
+BT
+1 0 0 1 5 111 Tm
+(Busy\055hour traffic \057 subscriber) Tj
+T*
+ET
+BT
+1 0 0 1 126.8898 111 Tm
+(0\056025 Erlang) Tj
+T*
+ET
+BT
+1 0 0 1 234.6063 111 Tm
+(Given) Tj
+T*
+ET
+BT
+1 0 0 1 5 93.5 Tm
+(Blocking target) Tj
+T*
+ET
+BT
+1 0 0 1 126.8898 93.5 Tm
+(2\045) Tj
+T*
+ET
+BT
+1 0 0 1 234.6063 93.5 Tm
+(Given) Tj
+T*
+ET
+BT
+1 0 0 1 5 76 Tm
+(Minimum SIR target) Tj
+T*
+ET
+BT
+1 0 0 1 126.8898 76 Tm
+(18 dB) Tj
+T*
+ET
+BT
+1 0 0 1 234.6063 76 Tm
+(Conservative digital\057analogue\055range target\073 dense\055area check) Tj
+T*
+ET
+BT
+1 0 0 1 5 58.5 Tm
+(Path\055loss exponent n) Tj
+T*
+ET
+BT
+1 0 0 1 126.8898 58.5 Tm
+(3\0560 typical\073 4\0560 dense\073 2\0565 open) Tj
+T*
+ET
+BT
+1 0 0 1 234.6063 58.5 Tm
+(Compare environments\073 n\0754 is the conservative design check) Tj
+T*
+ET
+BT
+1 0 0 1 5 41 Tm
+(Cluster size N) Tj
+T*
+ET
+BT
+1 0 0 1 126.8898 41 Tm
+(7 \050i\0752\054 j\0751\051) Tj
+T*
+ET
+BT
+1 0 0 1 234.6063 41 Tm
+(Valid hexagonal cluster size and practical reuse compromise) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.5 Tm
+(Cell radius R) Tj
+T*
+ET
+BT
+1 0 0 1 126.8898 23.5 Tm
+(0\0565 km initial macrocell) Tj
+T*
+ET
+BT
+1 0 0 1 234.6063 23.5 Tm
+(Illustrative planning radius\073 validate by propagation survey) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(Cell model) Tj
+T*
+ET
+BT
+1 0 0 1 126.8898 6 Tm
+(Ideal hexagons\073 first\055tier interference) Tj
+T*
+ET
+BT
+1 0 0 1 234.6063 6 Tm
+(Simplifying analytical model) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 175 m
+524.4094 175 l
+S
+n
+0 0 m
+524.4094 0 l
+S
+n
+0 0 m
+0 175 l
+S
+n
+524.4094 0 m
+524.4094 175 l
+S
+n
+0 157.5 m
+524.4094 157.5 l
+S
+n
+0 140 m
+524.4094 140 l
+S
+n
+0 122.5 m
+524.4094 122.5 l
+S
+n
+0 105 m
+524.4094 105 l
+S
+n
+0 87.5 m
+524.4094 87.5 l
+S
+n
+0 70 m
+524.4094 70 l
+S
+n
+0 52.5 m
+524.4094 52.5 l
+S
+n
+0 35 m
+524.4094 35 l
+S
+n
+0 17.5 m
+524.4094 17.5 l
+S
+n
+121.8898 0 m
+121.8898 175 l
+S
+n
+229.6063 0 m
+229.6063 175 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 490.3701 cm
+Q
+q
+1 0 0 1 51.35433 448.3701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 27 Tm
+/F1 9 Tf
+12 TL
+(The 18 dB target is checked using the standard six\055equal\055interferer approximation\056 For N\0757 and n\0754 it gives about 18\0567 dB\056) Tj
+T*
+-0.048004 Tw
+(At n\0752\0565 it is only about 12\0567 dB\054 so open\055campus propagation may permit more reuse\054 while dense areas require sectoring\054) Tj
+T*
+0 Tw
+(smaller cells\054 or careful site placement\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 429.3701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(Basic calculations used throughout) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 399.3701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 15 Tm
+/F1 9 Tf
+12 TL
+-0.101643 Tw
+(Hexagonal cluster sizes follow N \075 i\262 \053 ij \053 j\262\056 For i\0752 and j\0751\054 N\0754\0532\0531\0757\056 Reuse distance D \075 R) Tj
+/F3 9 Tf
+12 TL
+(\326) Tj
+/F1 9 Tf
+12 TL
+(\0503N\051 \075 0\0565) Tj
+/F3 9 Tf
+12 TL
+(\326) Tj
+/F1 9 Tf
+12 TL
+(21 \075 2\056291 km\073) Tj
+T*
+0 Tw
+(reuse ratio Q\075D\057R\075) Tj
+/F3 9 Tf
+12 TL
+(\326) Tj
+/F1 9 Tf
+12 TL
+(21\0754\056583\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 369.3701 cm
+q
+BT
+1 0 0 1 0 15 Tm
+12 TL
+/F1 9 Tf
+0 0 0 rg
+(Hexagonal cell area A) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(cell) Tj
+/F1 9 Tf
+0 Ts
+( \075 \0503) Tj
+/F3 9 Tf
+12 TL
+(\326) Tj
+/F1 9 Tf
+12 TL
+(3\0572\051R\262 \075 1\056299\3270\05625 \075 0\0563248 km\262\056 Approximate cells for 12 km\262 \075 ceil\05012\0570\0563248\051\07537\056 This) Tj
+T*
+(area estimate ignores boundary overlap and real road\057building geometry\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 315.3701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 39 Tm
+/F1 9 Tf
+12 TL
+(Channels per cell \075 S\057N \075 336\0577 \075 48 traffic channels \050integer assignment\051\056 The exact Erlang\055B traffic supported at 2\045) Tj
+T*
+(blocking for 48 channels is approximately 35 Erlangs\073 use the code below to calculate it exactly\056 Thus the idealized) Tj
+T*
+(whole\055network traffic capacity is approximately \05037\0577\051\32735 ) Tj
+/F3 9 Tf
+12 TL
+(\273) Tj
+/F1 9 Tf
+12 TL
+(185 Erlangs\054 subject to integer cluster allocation\054 edge effects) Tj
+T*
+(and interference\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 285.3701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 15 Tm
+/F1 9 Tf
+12 TL
+(Offered traffic\072 A\075U\3270\056025\056 Therefore 1\054000 users\07525 E\073 10\054000\075250 E\073 20\054000\075500 E\073 100\054000\0752\054500 E\056 The initial macro) Tj
+T*
+(layout cannot carry the larger forecasts\073 densification is required\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 259.3701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(TASK 1 \226 Design Alternative Frequency\055Planning Strategies) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 241.3701 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Aim\072) Tj
+/F1 9 Tf
+( Investigate three different ways of sharing the fixed 336\055channel allocation while controlling co\055channel interference\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 199.3701 cm
+q
+BT
+1 0 0 1 0 27 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Explanation\072) Tj
+/F1 9 Tf
+( Three strategies are compared below\056 All reserve a small portion of radio resources for control\057signalling as) Tj
+T*
+(required by the selected technology\073 the stated 336 channels are treated as the traffic\055channel pool supplied in the) Tj
+T*
+(assignment\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 125.5701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 68.8 524.4094 -17.2 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.2 Tf
+9.2 TL
+ET
+BT
+1 0 0 1 5 57.6 Tm
+(Strategy) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 57.6 Tm
+(Basic idea and channel sharing) Tj
+T*
+ET
+BT
+1 0 0 1 325.315 57.6 Tm
+(Design principle \057 justification) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.2 Tf
+9.2 TL
+ET
+BT
+1 0 0 1 5 40.4 Tm
+(A\056 Fixed cluster reuse \050FCA\051) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 40.4 Tm
+(Divide the 336 channels into N fixed groups\056 For N\0757\054 each cell group receives about 48 channels\073 the same group is reused only in sufficiently separated cells\056 FDMA\057TDMA can allocate carrier\057time slots\073 OFDMA can allocate subcarriers\057resource blocks\056) Tj
+T*
+ET
+BT
+1 0 0 1 325.315 40.4 Tm
+(Spatial reuse\056 Predictable and simple to plan\073 good baseline for interference and capacity calculations\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.2 Tm
+(B\056 3\055sector reuse) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 23.2 Tm
+(Split each site into three 120\260 sectors \050or six 60\260 sectors\051\056 Directional antennas reduce the number\057strength of dominant co\055channel interferers\073 channels are assigned by sector and reuse plan\056) Tj
+T*
+ET
+BT
+1 0 0 1 325.315 23.2 Tm
+(Spatial filtering\056 Improves SIR without adding spectrum\073 worth investigating in dense academic and stadium zones\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(C\056 Dynamic channel assignment \053 hierarchical microcells) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 6 Tm
+(A channel controller assigns an available channel based on local load and interference\073 overloaded macro areas are recursively split into microcells\056 Macro layer gives broad coverage\073 micro layer handles hotspots\056) Tj
+T*
+ET
+BT
+1 0 0 1 325.315 6 Tm
+(Trunking \053 hierarchical spatial reuse\056 Shares idle channels flexibly and follows demand growth\073 higher control and site cost\056) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 68.8 m
+524.4094 68.8 l
+S
+n
+0 0 m
+524.4094 0 l
+S
+n
+0 0 m
+0 68.8 l
+S
+n
+524.4094 0 m
+524.4094 68.8 l
+S
+n
+0 51.6 m
+524.4094 51.6 l
+S
+n
+0 34.4 m
+524.4094 34.4 l
+S
+n
+0 17.2 m
+524.4094 17.2 l
+S
+n
+96.37795 0 m
+96.37795 68.8 l
+S
+n
+320.315 0 m
+320.315 68.8 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 120.5701 cm
+Q
+q
+1 0 0 1 51.35433 101.5701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(Pseudocode \226 A\072 iterative valid\055cluster search and assignment) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 65.57008 cm
+0 0 0 rg
+BT
+1 0 0 1 5 25.5 Tm
+/F4 6.5 Tf
+8 TL
+(for i in range\0500\054 8\051\072) Tj
+T*
+(    for j in range\0500\054 8\051\072) Tj
+T*
+(        N \075 i\052i \053 i\052j \053 j\052j) Tj
+T*
+(        if N in allowed\137cluster\137sizes\072) Tj
+T*
+ET
+Q
+Q
+
+endstream
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Symbol
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F6
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Contents 14 0 R
+/MediaBox [ 0.0 0.0 744.0945 1052.36225 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0.0 0.0 930.118125 1315.45281 ]
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 9573
+>>
+stream
+q
+1.25 0.0 0.0 1.25 0.0 0.0 cm
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 8 Tf
+9.6 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 51.02362 34.01575 Tm
+(ITA03\055MP Assignment 1 \226 Worked Answers) Tj
+T*
+ET
+BT
+1 0 0 1 518.9 34.01575 Tm
+(Page 2) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 737.3701 cm
+0 0 0 rg
+BT
+1 0 0 1 5 49.5 Tm
+/F4 6.5 Tf
+8 TL
+(            Q \075 sqrt\0503\052N\051) Tj
+T*
+(            estimate\137SIR \075 10\052log10\050\050sqrt\0503\052N\051\052\052n\051\0576\051) Tj
+T*
+(            if estimate\137SIR \076\075 SIR\137target\072) Tj
+T*
+(                keep\137candidate\050N\054 Q\051) Tj
+T*
+(choose feasible N with best capacity\057cost trade\055off) Tj
+T*
+(divide 336 channels into N groups) Tj
+T*
+(assign groups to cells on the hexagonal grid) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 718.3701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(Pseudocode \226 B\072 sector assignment) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 666.3701 cm
+0 0 0 rg
+BT
+1 0 0 1 5 41.5 Tm
+/F4 6.5 Tf
+8 TL
+(for each site\072) Tj
+T*
+(    divide coverage into 3 \050or 6\051 directional sectors) Tj
+T*
+(    identify dominant co\055channel directions) Tj
+T*
+(    assign channel groups to sectors) Tj
+T*
+(    check sector\055edge SIR and traffic blocking) Tj
+T*
+(    adjust antenna azimuth\054 tilt and power if required) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 647.3701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(Pseudocode \226 C\072 recursive\057hierarchical cell splitting) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 563.3701 cm
+0 0 0 rg
+BT
+1 0 0 1 5 73.5 Tm
+/F4 6.5 Tf
+8 TL
+(plan\050cell\051\072) Tj
+T*
+(    measure busy\055hour demand and SIR) Tj
+T*
+(    if demand \074\075 cell\137capacity and SIR \076\075 target\072) Tj
+T*
+(        keep cell) Tj
+T*
+(    else\072) Tj
+T*
+(        divide cell into smaller child cells) Tj
+T*
+(        reduce child transmit power) Tj
+T*
+(        assign channels using reuse\057interference constraints) Tj
+T*
+(        for each overloaded child\072) Tj
+T*
+(            plan\050child\051) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 521.3701 cm
+q
+BT
+1 0 0 1 0 27 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Preprocessing and cost\072) Tj
+/F1 9 Tf
+( Prepare a building\057road and subscriber\055density map\054 busy\055hour traffic map\054 propagation survey\054) Tj
+T*
+(candidate hexagonal grid\054 and interference measurements\056 The operator normally bears radio\055planning\054 drive\055test\054) Tj
+T*
+(site\055acquisition and optimisation costs\073 the university\057township may assist with access permissions and site locations\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 495.3701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(TASK 2 \226 Identify the Governing Design Parameter) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 477.3701 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Aim\072) Tj
+/F1 9 Tf
+( Identify the main parameter that controls capacity and interference in each strategy\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 402.3701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 70 524.4094 -17.5 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.5 Tf
+9.5 TL
+ET
+BT
+1 0 0 1 5 58.5 Tm
+(Strategy) Tj
+T*
+ET
+BT
+1 0 0 1 112.7165 58.5 Tm
+(Governing parameter) Tj
+T*
+ET
+BT
+1 0 0 1 248.7795 58.5 Tm
+(Why it governs the design) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.5 Tf
+9.5 TL
+ET
+BT
+1 0 0 1 5 41 Tm
+(Fixed reuse) Tj
+T*
+ET
+BT
+1 0 0 1 112.7165 41 Tm
+(Cluster size N \050and Q\075D\057R\051) Tj
+T*
+ET
+BT
+1 0 0 1 248.7795 41 Tm
+(Channels per cell are approximately S\057N\073 increasing N improves reuse distance and SIR but reduces channels per cell\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.5 Tm
+(Sectoring) Tj
+T*
+ET
+BT
+1 0 0 1 112.7165 23.5 Tm
+(Number of sectors and effective interferer count i) Tj
+/F5 7.5 Tf
+9.5 TL
+(n) Tj
+/F1 7.5 Tf
+9.5 TL
+T*
+ET
+BT
+1 0 0 1 248.7795 23.5 Tm
+(Directional antennas suppress interferers outside the sector\073 capacity depends on channels per sector and SIR at sector edges\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(Dynamic \057 hierarchical) Tj
+T*
+ET
+BT
+1 0 0 1 112.7165 6 Tm
+(Cell radius R and available\055channel pool per cell) Tj
+T*
+ET
+BT
+1 0 0 1 248.7795 6 Tm
+(Smaller R increases the number of cells per area\073 dynamic assignment improves use of idle channels\054 while radius controls site count and handoffs\056) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 70 m
+524.4094 70 l
+S
+n
+0 0 m
+524.4094 0 l
+S
+n
+0 0 m
+0 70 l
+S
+n
+524.4094 0 m
+524.4094 70 l
+S
+n
+0 52.5 m
+524.4094 52.5 l
+S
+n
+0 35 m
+524.4094 35 l
+S
+n
+0 17.5 m
+524.4094 17.5 l
+S
+n
+107.7165 0 m
+107.7165 70 l
+S
+n
+243.7795 0 m
+243.7795 70 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 397.3701 cm
+Q
+q
+1 0 0 1 51.35433 355.3701 cm
+q
+BT
+1 0 0 1 0 27 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Explanation\072) Tj
+/F1 9 Tf
+( As users grow from 1\054000 to 100\054000\053\054 the network must increase spatial reuse by adding cells\054 splitting) Tj
+T*
+(overloaded cells and using sectors\056 N cannot simply be reduced without checking SIR\056 The preferred response is local) Tj
+T*
+(densification and dynamic assignment rather than increasing the licensed spectrum\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 329.3701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(TASK 3 \226 Derive Capacity and Interference Functions Mathematically) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 311.3701 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Aim\072) Tj
+/F1 9 Tf
+( Derive the geometric\054 traffic and SIR relationships used to estimate network capacity\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 292.3701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(1\056 Hexagonal reuse geometry) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 262.3701 cm
+q
+BT
+1 0 0 1 0 15 Tm
+12 TL
+/F1 9 Tf
+0 0 0 rg
+(A cluster contains N cells\054 where N\075i\262\053ij\053j\262\056 The centre\055to\055centre reuse distance is D\075R) Tj
+/F3 9 Tf
+12 TL
+(\326) Tj
+/F1 9 Tf
+12 TL
+(\0503N\051\054 and Q\075D\057R\075) Tj
+/F3 9 Tf
+12 TL
+(\326) Tj
+/F1 9 Tf
+12 TL
+(\0503N\051\056 The cell) Tj
+T*
+(area is A) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(cell) Tj
+/F1 9 Tf
+0 Ts
+(\075\0503) Tj
+/F3 9 Tf
+12 TL
+(\326) Tj
+/F1 9 Tf
+12 TL
+(3\0572\051R\262\056 The approximate number of cells in township area A is M\075ceil\050A\057A) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(cell) Tj
+/F1 9 Tf
+0 Ts
+(\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 243.3701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(2\056 Channel and traffic capacity) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 201.3701 cm
+q
+BT
+1 0 0 1 0 27 Tm
+12 TL
+/F1 9 Tf
+0 0 0 rg
+(With S\075336 channels and N\0757\054 channels per cell C\075) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(S\057N) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\07548\056 Offered traffic per cell is A) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(cell traffic) Tj
+/F1 9 Tf
+0 Ts
+( in Erlangs\056 Erlang\055B) Tj
+T*
+(recursion is B\0500\054A\051\0751 and B\050c\054A\051\075A\267B\050c) Tj
+/F3 9 Tf
+12 TL
+(\055) Tj
+/F1 9 Tf
+12 TL
+(1\054A\051\057\050c\053A\267B\050c) Tj
+/F3 9 Tf
+12 TL
+(\055) Tj
+/F1 9 Tf
+12 TL
+(1\054A\051\051\056 Find the largest A for which B\05048\054A\051) Tj
+/F3 9 Tf
+12 TL
+(\243) Tj
+/F1 9 Tf
+12 TL
+(0\05602\056 Approximate result\072) Tj
+T*
+(35 Erlangs per cell\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 159.3701 cm
+q
+BT
+1 0 0 1 0 27 Tm
+12 TL
+/F1 9 Tf
+0 0 0 rg
+(For M cells\054 ideal network traffic capacity is approximately C) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(net) Tj
+/F1 9 Tf
+0 Ts
+(\075\050M\057N\051\327A) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(cell\054max) Tj
+/F1 9 Tf
+0 Ts
+(\327N \075 M\327A) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(cell\054max) Tj
+/F1 9 Tf
+0 Ts
+(\057N when one full reuse) Tj
+T*
+(cluster is counted as N cells sharing the full spectrum\056 With M) Tj
+/F3 9 Tf
+12 TL
+(\273) Tj
+/F1 9 Tf
+12 TL
+(37 and N\0757\054 this is about 185 Erlangs\056 In an actual layout\054) Tj
+T*
+(allocate integer channel groups and account for partial clusters and boundary cells\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 140.3701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(3\056 Co\055channel SIR) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 98.37008 cm
+q
+BT
+1 0 0 1 0 27 Tm
+12 TL
+/F1 9 Tf
+0 0 0 rg
+(Received desired power is proportional to R) Tj
+/F1 7.2 Tf
+4.5 Ts
+/F3 7.2 Tf
+12 TL
+(\055) Tj
+/F1 7.2 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+0 Ts
+(\056 With i) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+( dominant equal\055distance co\055channel interferers at distance D\054) Tj
+T*
+(SIR) Tj
+/F3 9 Tf
+12 TL
+(\273) Tj
+/F1 9 Tf
+12 TL
+(\050D\057R\051) Tj
+/F1 7.2 Tf
+4.5 Ts
+(n) Tj
+/F1 9 Tf
+0 Ts
+(\057i) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\075\050) Tj
+/F3 9 Tf
+12 TL
+(\326) Tj
+/F1 9 Tf
+12 TL
+(\0503N\051\051) Tj
+/F1 7.2 Tf
+4.5 Ts
+(n) Tj
+/F1 9 Tf
+0 Ts
+(\057i) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\056 In dB\072 SIR) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(dB) Tj
+/F1 9 Tf
+0 Ts
+(\07510log) Tj
+/F5 9 Tf
+12 TL
+(nn) Tj
+/F1 9 Tf
+12 TL
+(\133\0503N\051) Tj
+/F1 7.2 Tf
+4.5 Ts
+(n\0572) Tj
+/F1 9 Tf
+0 Ts
+(\057i) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\135\056 For N\0757\054 n\0754 and i) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\0756\072 SIR\07510log) Tj
+/F5 9 Tf
+12 TL
+(nn) Tj
+/F1 9 Tf
+12 TL
+(\05021\262\0576\051\07518\05666 dB\056 For) Tj
+T*
+(n\0753\072 13\05689 dB\073 for n\0752\0565\072 12\05672 dB\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 68.37008 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 15 Tm
+/F1 9 Tf
+12 TL
+(For ideal sectoring\054 fewer first\055tier interferers fall inside the receive beam\056 A simplified 120\260 three\055sector estimate often uses) Tj
+T*
+(i) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F3 9 Tf
+12 TL
+(\273) Tj
+/F1 9 Tf
+12 TL
+(2\073 then the SIR estimate improves by 10log) Tj
+/F5 9 Tf
+12 TL
+(nn) Tj
+/F1 9 Tf
+12 TL
+(\0506\0572\051\0754\05677 dB compared with six equal interferers\056 Real antenna patterns\054) Tj
+T*
+ET
+Q
+Q
+Q
+
+endstream
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0.0 0.0 744.0945 1052.36225 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0.0 0.0 930.118125 1315.45281 ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 10534
+>>
+stream
+q
+1.25 0.0 0.0 1.25 0.0 0.0 cm
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 8 Tf
+9.6 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 51.02362 34.01575 Tm
+(ITA03\055MP Assignment 1 \226 Worked Answers) Tj
+T*
+ET
+BT
+1 0 0 1 518.9 34.01575 Tm
+(Page 3) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 781.3701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F1 9 Tf
+12 TL
+(sidelobes and sector orientation must be included for a reliable result\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 762.3701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(4\056 Planning cost and cost\226capacity) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 708.3701 cm
+q
+BT
+1 0 0 1 0 39 Tm
+12 TL
+/F1 9 Tf
+0 0 0 rg
+(Let C) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(survey) Tj
+/F1 9 Tf
+0 Ts
+( be traffic\057propagation survey cost\054 C) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(site) Tj
+/F1 9 Tf
+0 Ts
+( the cost per site\054 and C) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(ops) Tj
+/F1 9 Tf
+0 Ts
+( annual operating cost\056 For M sites\054) Tj
+T*
+(C) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(total) Tj
+/F1 9 Tf
+0 Ts
+(\075C) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(survey) Tj
+/F1 9 Tf
+0 Ts
+(\053M\267C) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(site) Tj
+/F1 9 Tf
+0 Ts
+(\053C) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(ops) Tj
+/F1 9 Tf
+0 Ts
+(\056 Cost per supported Erlang is C) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(total) Tj
+/F1 9 Tf
+0 Ts
+(\057C) Tj
+/F1 7.2 Tf
+-4.5 Ts
+(net) Tj
+/F1 9 Tf
+0 Ts
+(\056 Sectoring raises antenna\057commissioning cost but can) Tj
+T*
+(improve SIR\073 microcells raise M and handoff\057maintenance cost but add capacity where demand exists\056 Actual currency) Tj
+T*
+(values require local quotations and site\055survey data\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 563.3701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 140 524.4094 -17.5 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.5 Tf
+9.5 TL
+ET
+BT
+1 0 0 1 5 128.5 Tm
+(Quantity) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 128.5 Tm
+(Formula) Tj
+T*
+ET
+BT
+1 0 0 1 350.8268 128.5 Tm
+(Worked value) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.5 Tf
+9.5 TL
+ET
+BT
+1 0 0 1 5 111 Tm
+(Cluster size) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 111 Tm
+(N\075i\262\053ij\053j\262\073 i\0752\054j\0751) Tj
+T*
+ET
+BT
+1 0 0 1 350.8268 111 Tm
+(7) Tj
+T*
+ET
+BT
+1 0 0 1 5 93.5 Tm
+(Reuse distance) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 93.5 Tm
+(D\0750\0565) Tj
+/F3 7.5 Tf
+9.5 TL
+(\326) Tj
+/F1 7.5 Tf
+9.5 TL
+(21) Tj
+T*
+ET
+BT
+1 0 0 1 350.8268 93.5 Tm
+(2\056291 km) Tj
+T*
+ET
+BT
+1 0 0 1 5 76 Tm
+(Reuse ratio) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 76 Tm
+(Q\075) Tj
+/F3 7.5 Tf
+9.5 TL
+(\326) Tj
+/F1 7.5 Tf
+9.5 TL
+(21) Tj
+T*
+ET
+BT
+1 0 0 1 350.8268 76 Tm
+(4\056583) Tj
+T*
+ET
+BT
+1 0 0 1 5 58.5 Tm
+(Cell area) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 58.5 Tm
+(\0503) Tj
+/F3 7.5 Tf
+9.5 TL
+(\326) Tj
+/F1 7.5 Tf
+9.5 TL
+(3\0572\051\0500\0565\051\262) Tj
+T*
+ET
+BT
+1 0 0 1 350.8268 58.5 Tm
+(0\0563248 km\262) Tj
+T*
+ET
+BT
+1 0 0 1 5 41 Tm
+(Cells in 12 km\262) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 41 Tm
+(ceil\05012\0570\0563248\051) Tj
+T*
+ET
+BT
+1 0 0 1 350.8268 41 Tm
+(37 \050approx\056\051) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.5 Tm
+(Channels per cell) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 23.5 Tm
+(floor\050336\0577\051) Tj
+T*
+ET
+BT
+1 0 0 1 350.8268 23.5 Tm
+(48) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(SIR\054 n\0754\054 six interferers) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 6 Tm
+(10log10\05021\262\0576\051) Tj
+T*
+ET
+BT
+1 0 0 1 350.8268 6 Tm
+(18\05666 dB) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 140 m
+524.4094 140 l
+S
+n
+0 0 m
+524.4094 0 l
+S
+n
+0 0 m
+0 140 l
+S
+n
+524.4094 0 m
+524.4094 140 l
+S
+n
+0 122.5 m
+524.4094 122.5 l
+S
+n
+0 105 m
+524.4094 105 l
+S
+n
+0 87.5 m
+524.4094 87.5 l
+S
+n
+0 70 m
+524.4094 70 l
+S
+n
+0 52.5 m
+524.4094 52.5 l
+S
+n
+0 35 m
+524.4094 35 l
+S
+n
+0 17.5 m
+524.4094 17.5 l
+S
+n
+133.2283 0 m
+133.2283 140 l
+S
+n
+345.8268 0 m
+345.8268 140 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 558.3701 cm
+Q
+q
+1 0 0 1 51.35433 532.3701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(TASK 4 \226 Analyse Best\054 Average and Worst\055Case Behaviour) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 514.3701 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Aim\072) Tj
+/F1 9 Tf
+( Compare SIR and call blocking at different mobile positions and traffic levels\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 460.3701 cm
+q
+BT
+1 0 0 1 0 39 Tm
+-0.085898 Tw
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Explanation\072) Tj
+/F1 9 Tf
+( The strongest desired signal occurs close to the serving base station\054 so this is normally the best SIR location\056) Tj
+T*
+0 Tw
+(A mobile near the cell edge or corner is farther from its serving site and may be closer to one or more co\055channel sites\054) Tj
+T*
+(producing the worst SIR\056 A uniformly distributed mobile population gives an average between these cases\073 actual average) Tj
+T*
+(SIR must be measured or simulated over locations\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 368.8701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 86.5 524.4094 -17.3 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.3 Tf
+9.3 TL
+ET
+BT
+1 0 0 1 5 75.2 Tm
+(Case) Tj
+T*
+ET
+BT
+1 0 0 1 90.03937 75.2 Tm
+(Mobile position \057 traffic) Tj
+T*
+ET
+BT
+1 0 0 1 245.9449 75.2 Tm
+(Expected behaviour and reason) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.3 Tf
+9.3 TL
+ET
+BT
+1 0 0 1 5 57.9 Tm
+(Best SIR) Tj
+T*
+ET
+BT
+1 0 0 1 90.03937 57.9 Tm
+(Near serving base station\073 off\055peak) Tj
+T*
+ET
+BT
+1 0 0 1 245.9449 57.9 Tm
+(High desired signal and relatively low load\073 low blocking and strong link margin\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 40.6 Tm
+(Average) Tj
+T*
+ET
+BT
+1 0 0 1 90.03937 40.6 Tm
+(Typical mid\055cell\073 normal busy hour) Tj
+T*
+ET
+BT
+1 0 0 1 245.9449 40.6 Tm
+(Moderate path loss and ordinary interference\073 blocking approaches the designed 2\045 only near the engineered load limit\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.3 Tm
+(Worst SIR) Tj
+T*
+ET
+BT
+1 0 0 1 90.03937 23.3 Tm
+(Cell corner\057edge\073 dense buildings) Tj
+T*
+ET
+BT
+1 0 0 1 245.9449 23.3 Tm
+(Weak desired signal\054 nearby co\055channel interferer and possible shadowing\073 outage risk rises\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(Worst blocking) Tj
+T*
+ET
+BT
+1 0 0 1 90.03937 6 Tm
+(Any position during event surge) Tj
+T*
+ET
+BT
+1 0 0 1 245.9449 6 Tm
+(Blocking is driven mainly by offered traffic versus available channels\073 when offered load exceeds Erlang\055B capacity\054 blocking rises sharply\056) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 86.5 m
+524.4094 86.5 l
+S
+n
+0 0 m
+524.4094 0 l
+S
+n
+0 0 m
+0 86.5 l
+S
+n
+524.4094 0 m
+524.4094 86.5 l
+S
+n
+0 69.2 m
+524.4094 69.2 l
+S
+n
+0 51.9 m
+524.4094 51.9 l
+S
+n
+0 34.6 m
+524.4094 34.6 l
+S
+n
+0 17.3 m
+524.4094 17.3 l
+S
+n
+85.03937 0 m
+85.03937 86.5 l
+S
+n
+240.9449 0 m
+240.9449 86.5 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 363.8701 cm
+Q
+q
+1 0 0 1 51.35433 309.8701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 39 Tm
+/F1 9 Tf
+12 TL
+(Example SIR calculation\072 for N\0757 and six interferers\054 SIR at n\0754 is 18\05666 dB\056 If the environment changes to n\0752\0565\054 it falls to) Tj
+T*
+(12\05672 dB under the same simplified geometry\056 This 5\05694 dB reduction shows why a dense\055building propagation model and) Tj
+T*
+(field measurements matter\056 Log\055normal shadowing can temporarily raise or lower received powers\073 it widens the SIR) Tj
+T*
+(distribution\054 so the 5th\055percentile SIR is more informative than the mean alone\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 267.8701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 27 Tm
+/F1 9 Tf
+12 TL
+(Blocking is calculated with Erlang\055B from the offered load A and channel count c\056 For A below the 2\045\055blocking traffic limit\054) Tj
+T*
+-0.081604 Tw
+(blocking is at or below 2\045\073 as A exceeds that limit\054 blocking increases\056 Off\055peak traffic gives the lowest blocking\054 while event) Tj
+T*
+0 Tw
+(traffic gives the highest\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 241.8701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(TASK 5 \226 Scaling and Sensitivity Analysis) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 223.8701 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Aim\072) Tj
+/F1 9 Tf
+( Explain how capacity\054 interference and cell count change with demand and propagation\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 131.8701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 87 524.4094 -17.4 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.4 Tf
+9.4 TL
+ET
+BT
+1 0 0 1 5 75.6 Tm
+(Change) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 75.6 Tm
+(Mathematical trend) Tj
+T*
+ET
+BT
+1 0 0 1 279.9606 75.6 Tm
+(Planning interpretation) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.4 Tf
+9.4 TL
+ET
+BT
+1 0 0 1 5 58.2 Tm
+(Increase N) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 58.2 Tm
+(Channels\057cell ) Tj
+/F3 7.4 Tf
+9.4 TL
+(\265) Tj
+/F1 7.4 Tf
+9.4 TL
+(1\057N\073 ideal SIR ) Tj
+/F3 7.4 Tf
+9.4 TL
+(\265) Tj
+/F1 7.4 Tf
+9.4 TL
+(N\136\050n\0572\051) Tj
+T*
+ET
+BT
+1 0 0 1 279.9606 58.2 Tm
+(Higher N improves isolation but lowers per\055cell channel count\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 40.8 Tm
+(Reduce R) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 40.8 Tm
+(Cells per area ) Tj
+/F3 7.4 Tf
+9.4 TL
+(\265) Tj
+/F1 7.4 Tf
+9.4 TL
+(1\057R\262) Tj
+T*
+ET
+BT
+1 0 0 1 279.9606 40.8 Tm
+(Halving radius gives about four times as many cells and sites\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.4 Tm
+(Increase n) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 23.4 Tm
+(SIR ) Tj
+/F3 7.4 Tf
+9.4 TL
+(\265) Tj
+/F1 7.4 Tf
+9.4 TL
+(\0503N\051\136\050n\0572\051 in the equal\055distance model) Tj
+T*
+ET
+BT
+1 0 0 1 279.9606 23.4 Tm
+(Larger n reduces distant interference faster\054 but dense clutter also weakens desired links and adds shadowing\073 use measured propagation\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(Users\072 1k) Tj
+/F3 7.4 Tf
+9.4 TL
+(\256) Tj
+/F1 7.4 Tf
+9.4 TL
+(100k) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 6 Tm
+(Offered traffic 25) Tj
+/F3 7.4 Tf
+9.4 TL
+(\256) Tj
+/F1 7.4 Tf
+9.4 TL
+(2\054500 Erlangs) Tj
+T*
+ET
+BT
+1 0 0 1 279.9606 6 Tm
+(A 100\055fold increase requires major densification\054 not just parameter tuning\056) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 87 m
+524.4094 87 l
+S
+n
+0 0 m
+524.4094 0 l
+S
+n
+0 0 m
+0 87 l
+S
+n
+524.4094 0 m
+524.4094 87 l
+S
+n
+0 69.6 m
+524.4094 69.6 l
+S
+n
+0 52.2 m
+524.4094 52.2 l
+S
+n
+0 34.8 m
+524.4094 34.8 l
+S
+n
+0 17.4 m
+524.4094 17.4 l
+S
+n
+99.2126 0 m
+99.2126 87 l
+S
+n
+274.9606 0 m
+274.9606 87 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 126.8701 cm
+Q
+q
+1 0 0 1 51.35433 60.87008 cm
+q
+BT
+1 0 0 1 0 51 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Explanation\072) Tj
+/F1 9 Tf
+( A useful break\055even rule is to split a cell when its measured busy\055hour demand exceeds its 2\045\055blocking) Tj
+T*
+(Erlang\055B capacity or when SIR\057outage fails the target\056 Macro\055only fixed reuse is suitable at low demand\073 sectoring and) Tj
+T*
+(dynamic assignment are useful at medium demand\073 dense microcells or small cells become preferable around persistent) Tj
+T*
+(hotspots and at high subscriber counts\056 The exact break\055even point depends on site cost\054 traffic distribution and measured) Tj
+T*
+(radio conditions\056) Tj
+T*
+ET
+Q
+Q
+Q
+
+endstream
+endobj
+17 0 obj
+<<
+/Contents 18 0 R
+/MediaBox [ 0.0 0.0 744.0945 1052.36225 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0.0 0.0 930.118125 1315.45281 ]
+/Parent 2 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 10669
+>>
+stream
+q
+1.25 0.0 0.0 1.25 0.0 0.0 cm
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 8 Tf
+9.6 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 51.02362 34.01575 Tm
+(ITA03\055MP Assignment 1 \226 Worked Answers) Tj
+T*
+ET
+BT
+1 0 0 1 518.9 34.01575 Tm
+(Page 4) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 777.3701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(TASK 6 \226 Formulate the Recurrence for Repeated Cell Splitting) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 759.3701 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Aim\072) Tj
+/F1 9 Tf
+( Express how cell count\054 capacity\054 power and handoff load change after repeated splitting\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 717.3701 cm
+q
+BT
+1 0 0 1 0 27 Tm
+-0.037769 Tw
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Explanation\072) Tj
+/F1 9 Tf
+( In this model\054 one overloaded hexagonal coverage area is approximated as four smaller cells after halving the) Tj
+T*
+0 Tw
+(radius\056 This is an area\055based planning approximation\073 an exact hexagonal tessellation and guard regions may change the) Tj
+T*
+(practical count\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 591.9701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 120.4 524.4094 -17.2 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.2 Tf
+9.2 TL
+ET
+BT
+1 0 0 1 5 109.2 Tm
+(Variable) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 109.2 Tm
+(Uniform split recurrence) Tj
+T*
+ET
+BT
+1 0 0 1 288.4646 109.2 Tm
+(Meaning) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.2 Tf
+9.2 TL
+ET
+BT
+1 0 0 1 5 92 Tm
+(Cell count) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 92 Tm
+(M) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+(\0754M) Tj
+/F5 7.2 Tf
+9.2 TL
+(nnn) Tj
+/F1 7.2 Tf
+9.2 TL
+(\073 M) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+( initial cell count) Tj
+T*
+ET
+BT
+1 0 0 1 288.4646 92 Tm
+(Each split round creates four child cells per parent\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 74.8 Tm
+(Radius) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 74.8 Tm
+(R) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+(\075R) Tj
+/F5 7.2 Tf
+9.2 TL
+(nnn) Tj
+/F1 7.2 Tf
+9.2 TL
+(\0572\075R) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+(\0572) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+T*
+ET
+BT
+1 0 0 1 288.4646 74.8 Tm
+(Coverage radius halves each round\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 57.6 Tm
+(Area per cell) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 57.6 Tm
+(A) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+(\075A) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+(\0574) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+T*
+ET
+BT
+1 0 0 1 288.4646 57.6 Tm
+(Each child covers one quarter of parent area\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 40.4 Tm
+(Aggregate offered capacity) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 40.4 Tm
+(C) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F3 7.2 Tf
+9.2 TL
+(\273) Tj
+/F1 7.2 Tf
+9.2 TL
+(4C) Tj
+/F5 7.2 Tf
+9.2 TL
+(nnn) Tj
+/F1 7.2 Tf
+9.2 TL
+(\073 C) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+(\0754) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+(C) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+T*
+ET
+BT
+1 0 0 1 288.4646 40.4 Tm
+(Assumes the same reuse\057channel plan can be repeated and each child is independently served\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.2 Tm
+(Transmit power) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 23.2 Tm
+(P) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+(\075P) Tj
+/F5 7.2 Tf
+9.2 TL
+(nnn) Tj
+/F1 7.2 Tf
+9.2 TL
+(\0572) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+(\073 P) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+(\075P) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+(\0572) Tj
+/F5 7.2 Tf
+9.2 TL
+(nn) Tj
+/F1 7.2 Tf
+9.2 TL
+T*
+ET
+BT
+1 0 0 1 288.4646 23.2 Tm
+(As specified by the assignment\047s model\073 actual power control needs link\055budget validation\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(Handoff load) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 6 Tm
+(H) Tj
+/F5 7.2 Tf
+9.2 TL
+(n) Tj
+/F1 7.2 Tf
+9.2 TL
+( increases as cell boundaries per area increase) Tj
+T*
+ET
+BT
+1 0 0 1 288.4646 6 Tm
+(Smaller cells cause more boundary crossings and signalling\056) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 120.4 m
+524.4094 120.4 l
+S
+n
+0 0 m
+524.4094 0 l
+S
+n
+0 0 m
+0 120.4 l
+S
+n
+524.4094 0 m
+524.4094 120.4 l
+S
+n
+0 103.2 m
+524.4094 103.2 l
+S
+n
+0 86 m
+524.4094 86 l
+S
+n
+0 68.8 m
+524.4094 68.8 l
+S
+n
+0 51.6 m
+524.4094 51.6 l
+S
+n
+0 34.4 m
+524.4094 34.4 l
+S
+n
+0 17.2 m
+524.4094 17.2 l
+S
+n
+99.2126 0 m
+99.2126 120.4 l
+S
+n
+283.4646 0 m
+283.4646 120.4 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 586.9701 cm
+Q
+q
+1 0 0 1 51.35433 532.9701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 39 Tm
+/F1 9 Tf
+12 TL
+(Selective splitting\072 if only fraction f of cells are overloaded\054 M) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\075M) Tj
+/F5 9 Tf
+12 TL
+(nnn) Tj
+/F1 9 Tf
+12 TL
+(\0501\0533f\051 per round\054 because each selected parent is) Tj
+T*
+(replaced by four children \050net gain of three\051\056 Approximate aggregate capacity becomes C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F3 9 Tf
+12 TL
+(\273) Tj
+/F1 9 Tf
+12 TL
+(C) Tj
+/F5 9 Tf
+12 TL
+(nnn) Tj
+/F1 9 Tf
+12 TL
+(\0501\0533f\051\054 subject to local) Tj
+T*
+(spectrum and interference constraints\056 Base case\072 k\0750\054 M) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\07537\054 R) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\0750\0565 km and C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+( is the initial estimated network traffic) Tj
+T*
+(capacity\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 506.9701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(TASK 7 \226 Solve the Recurrence and Interpret the Result) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 488.9701 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Aim\072) Tj
+/F1 9 Tf
+( Find the number of splitting rounds needed to meet forecast traffic\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 458.9701 cm
+q
+BT
+1 0 0 1 0 15 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Explanation\072) Tj
+/F1 9 Tf
+( For uniform splitting\054 C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\0754) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\056 To support demand D\054 require 4) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F3 9 Tf
+12 TL
+(\263) Tj
+/F1 9 Tf
+12 TL
+(D\056 Dividing by C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+( gives 4) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F3 9 Tf
+12 TL
+(\263) Tj
+/F1 9 Tf
+12 TL
+(D\057C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\056) Tj
+T*
+(Taking logarithms gives k) Tj
+/F3 9 Tf
+12 TL
+(\263) Tj
+/F1 9 Tf
+12 TL
+(log) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\050D\057C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\051\054 hence k\075ceil\133log) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\050D\057C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\051\135 when D\076C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\073 otherwise k\0750\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 440.9701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F1 9 Tf
+12 TL
+(Using C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F3 9 Tf
+12 TL
+(\273) Tj
+/F1 9 Tf
+12 TL
+(185 Erlangs as the illustrative starting capacity\072) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 348.4701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 87.5 524.4094 -17.5 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.5 Tf
+9.5 TL
+ET
+BT
+1 0 0 1 5 76 Tm
+(Subscribers) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 76 Tm
+(Offered traffic D) Tj
+T*
+ET
+BT
+1 0 0 1 211.9291 76 Tm
+(Minimum uniform rounds k) Tj
+T*
+ET
+BT
+1 0 0 1 333.8189 76 Tm
+(Capacity after rounds \050approx\056\051) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.5 Tf
+9.5 TL
+ET
+BT
+1 0 0 1 5 58.5 Tm
+(1\054000) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 58.5 Tm
+(25 E) Tj
+T*
+ET
+BT
+1 0 0 1 211.9291 58.5 Tm
+(0) Tj
+T*
+ET
+BT
+1 0 0 1 333.8189 58.5 Tm
+(185 E) Tj
+T*
+ET
+BT
+1 0 0 1 5 41 Tm
+(10\054000) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 41 Tm
+(250 E) Tj
+T*
+ET
+BT
+1 0 0 1 211.9291 41 Tm
+(1) Tj
+T*
+ET
+BT
+1 0 0 1 333.8189 41 Tm
+(740 E) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.5 Tm
+(20\054000) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 23.5 Tm
+(500 E) Tj
+T*
+ET
+BT
+1 0 0 1 211.9291 23.5 Tm
+(1) Tj
+T*
+ET
+BT
+1 0 0 1 333.8189 23.5 Tm
+(740 E) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(100\054000) Tj
+T*
+ET
+BT
+1 0 0 1 104.2126 6 Tm
+(2\054500 E) Tj
+T*
+ET
+BT
+1 0 0 1 211.9291 6 Tm
+(2) Tj
+T*
+ET
+BT
+1 0 0 1 333.8189 6 Tm
+(2\054960 E) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 87.5 m
+524.4094 87.5 l
+S
+n
+0 0 m
+524.4094 0 l
+S
+n
+0 0 m
+0 87.5 l
+S
+n
+524.4094 0 m
+524.4094 87.5 l
+S
+n
+0 70 m
+524.4094 70 l
+S
+n
+0 52.5 m
+524.4094 52.5 l
+S
+n
+0 35 m
+524.4094 35 l
+S
+n
+0 17.5 m
+524.4094 17.5 l
+S
+n
+99.2126 0 m
+99.2126 87.5 l
+S
+n
+206.9291 0 m
+206.9291 87.5 l
+S
+n
+328.8189 0 m
+328.8189 87.5 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 343.4701 cm
+Q
+q
+1 0 0 1 51.35433 277.4701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 51 Tm
+/F1 9 Tf
+12 TL
+(Selective splitting with fraction f gives approximate C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\075C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\0501\0533f\051) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\054 so k\075ceil\133log\050D\057C) Tj
+/F5 9 Tf
+12 TL
+(n) Tj
+/F1 9 Tf
+12 TL
+(\051\057log\0501\0533f\051\135\056 It needs more rounds) Tj
+T*
+-0.061171 Tw
+(than uniform splitting when f is small\054 but avoids unnecessary sites in low\055demand areas\056 Uniform splitting multiplies sites by) Tj
+T*
+0 Tw
+(four each round\073 selective splitting multiplies them by 1\0533f\056 Handoff rates generally rise as cell radius falls\056 Note\072 the) Tj
+T*
+(numerical rounds are a simplified capacity\055growth estimate\073 real deployment must re\055run Erlang\055B per cell and validate) Tj
+T*
+(reuse\057interference after every split\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 251.4701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(TASK 8 \226 Implement and Test the Planning Strategies) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 221.4701 cm
+q
+BT
+1 0 0 1 0 15 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Aim\072) Tj
+/F1 9 Tf
+( Provide reproducible Python code to calculate cluster geometry\054 Erlang\055B blocking\054 approximate SIR and compare) Tj
+T*
+(reuse\057sectoring options\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 179.4701 cm
+q
+BT
+1 0 0 1 0 27 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Explanation\072) Tj
+/F1 9 Tf
+( The following compact simulator uses fixed random seeds\054 tests N\0753\054 4\054 7\054 12 and n\0752\0565\054 3\054 4\054 and writes a) Tj
+T*
+(CSV table\056 It uses the six\055interferer approximation for unsectored cells and a simplified two\055dominant\055interferer estimate for) Tj
+T*
+(three\055sector cells\056 It is an analytical screening simulator\054 not a full ray\055tracing or site\055level Monte\055Carlo radio model\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 62.47008 cm
+0 0 0 rg
+BT
+1 0 0 1 5 105.5 Tm
+/F4 6.5 Tf
+8 TL
+(import math) Tj
+T*
+(import csv) Tj
+T*
+(import random) Tj
+T*
+T*
+(random\056seed\05023\051) Tj
+T*
+T*
+(def erlang\137b\050channels\054 traffic\051\072) Tj
+T*
+(    b \075 1\0560) Tj
+T*
+(    for c in range\0501\054 channels \053 1\051\072) Tj
+T*
+(        b \075 traffic \052 b \057 \050c \053 traffic \052 b\051) Tj
+T*
+(    return b) Tj
+T*
+T*
+(def max\137traffic\050channels\054 target\0750\05602\051\072) Tj
+T*
+(    lo\054 hi \075 0\0560\054 float\050channels\051 \052 3) Tj
+T*
+ET
+Q
+Q
+
+endstream
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0.0 0.0 744.0945 1052.36225 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0.0 0.0 930.118125 1315.45281 ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 8191
+>>
+stream
+q
+1.25 0.0 0.0 1.25 0.0 0.0 cm
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 8 Tf
+9.6 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 51.02362 34.01575 Tm
+(ITA03\055MP Assignment 1 \226 Worked Answers) Tj
+T*
+ET
+BT
+1 0 0 1 518.9 34.01575 Tm
+(Page 5) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 457.3701 cm
+0 0 0 rg
+BT
+1 0 0 1 5 329.5 Tm
+/F4 6.5 Tf
+8 TL
+(    for \137 in range\05070\051\072) Tj
+T*
+(        mid \075 \050lo \053 hi\051 \057 2) Tj
+T*
+(        if erlang\137b\050channels\054 mid\051 \076 target\072) Tj
+T*
+(            hi \075 mid) Tj
+T*
+(        else\072) Tj
+T*
+(            lo \075 mid) Tj
+T*
+(    return lo) Tj
+T*
+T*
+(def valid\137cluster\050i\054 j\051\072) Tj
+T*
+(    return i\052i \053 i\052j \053 j\052j) Tj
+T*
+T*
+(def sir\137db\050N\054 n\054 interferers\051\072) Tj
+T*
+(    return 10 \052 math\056log10\050\0503\052N\051\052\052\050n\0572\051 \057 interferers\051) Tj
+T*
+T*
+(def run\050\051\072) Tj
+T*
+(    users\137list \075 \1331000\054 10000\054 20000\054 100000\135) Tj
+T*
+(    ns \075 \1333\054 4\054 7\054 12\135) Tj
+T*
+(    exponents \075 \1332\0565\054 3\054 4\135) Tj
+T*
+(    rows \075 \133\135) Tj
+T*
+(    for N in ns\072) Tj
+T*
+(        channels \075 336 \057\057 N) Tj
+T*
+(        traffic\137limit \075 max\137traffic\050channels\051) Tj
+T*
+(        for n in exponents\072) Tj
+T*
+(            for sectors\054 i0 in \133\050\042omni\042\054 6\051\054 \050\0423\055sector\042\054 2\051\135\072) Tj
+T*
+(                sir \075 sir\137db\050N\054 n\054 i0\051) Tj
+T*
+(                for users in users\137list\072) Tj
+T*
+(                    offered \075 users \052 0\056025) Tj
+T*
+(                    rows\056append\050\133) Tj
+T*
+(                        N\054 n\054 sectors\054 channels\054 round\050sir\054 2\051\054) Tj
+T*
+(                        users\054 round\050offered\054 2\051\054) Tj
+T*
+(                        round\050erlang\137b\050channels\054 offered\051\054 5\051\054) Tj
+T*
+(                        round\050traffic\137limit\054 2\051) Tj
+T*
+(                    \135\051) Tj
+T*
+(    with open\050\042ita03\137results\056csv\042\054 \042w\042\054 newline\075\042\042\051 as f\072) Tj
+T*
+(        w \075 csv\056writer\050f\051) Tj
+T*
+(        w\056writerow\050\133\042N\042\054 \042path\137loss\137n\042\054 \042layout\042\054 \042channels\137per\137cell\042\054) Tj
+T*
+(                    \042estimated\137SIR\137dB\042\054 \042subscribers\042\054 \042offered\137Erlangs\042\054) Tj
+T*
+(                    \042single\137cell\137blocking\042\054 \042traffic\137at\1372pct\137blocking\042\135\051) Tj
+T*
+(        w\056writerows\050rows\051) Tj
+T*
+T*
+(if \137\137name\137\137 \075\075 \042\137\137main\137\137\042\072) Tj
+T*
+(    run\050\051) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 391.3701 cm
+q
+BT
+1 0 0 1 0 51 Tm
+-0.006793 Tw
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(How to run\072) Tj
+/F1 9 Tf
+( Save as ) Tj
+/F6 9 Tf
+(ita03\137simulation\056py) Tj
+/F1 9 Tf
+( and run with Python 3\056 It creates ) Tj
+/F6 9 Tf
+(ita03\137results\056csv) Tj
+/F1 9 Tf
+(\056 The blocking column is for one) Tj
+T*
+0 Tw
+(cell receiving the entire offered load\054 so it is deliberately a stress indicator\073 for a proper multi\055cell study\054 distribute) Tj
+T*
+(subscribers among cells and calculate Erlang\055B separately for each cell\056 For the assignment\047s full Monte\055Carlo requirement\054) Tj
+T*
+(extend the code by generating random mobile positions\054 summing path\055loss\055weighted interferers\054 and recording SIR) Tj
+T*
+(samples and outage probability\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 365.3701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(TASK 9 \226 Record and Present Experimental Performance) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 347.3701 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Aim\072) Tj
+/F1 9 Tf
+( Identify measurements and tables\057plots that make the strategies directly comparable\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 237.9701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 104.4 530.0787 -17.4 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.4 Tf
+9.4 TL
+ET
+BT
+1 0 0 1 5 93 Tm
+(Metric) Tj
+T*
+ET
+BT
+1 0 0 1 118.3858 93 Tm
+(How to record) Tj
+T*
+ET
+BT
+1 0 0 1 313.9764 93 Tm
+(Why it matters) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.4 Tf
+9.4 TL
+ET
+BT
+1 0 0 1 5 75.6 Tm
+(SIR mean and 5th percentile) Tj
+T*
+ET
+BT
+1 0 0 1 118.3858 75.6 Tm
+(Store SIR samples over many random mobile locations) Tj
+T*
+ET
+BT
+1 0 0 1 313.9764 75.6 Tm
+(Shows typical and edge\055user radio quality\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 58.2 Tm
+(Outage probability) Tj
+T*
+ET
+BT
+1 0 0 1 118.3858 58.2 Tm
+(Fraction of samples below selected SIR threshold) Tj
+T*
+ET
+BT
+1 0 0 1 313.9764 58.2 Tm
+(Measures coverage\057interference failure\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 40.8 Tm
+(Blocking probability) Tj
+T*
+ET
+BT
+1 0 0 1 118.3858 40.8 Tm
+(Erlang\055B per cell using its offered traffic and channels) Tj
+T*
+ET
+BT
+1 0 0 1 313.9764 40.8 Tm
+(Tests the 2\045 grade\055of\055service target\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.4 Tm
+(Channels per cell \057 sites) Tj
+T*
+ET
+BT
+1 0 0 1 118.3858 23.4 Tm
+(Record integer channel allocation and cell count) Tj
+T*
+ET
+BT
+1 0 0 1 313.9764 23.4 Tm
+(Shows resource distribution and deployment scale\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(Run time) Tj
+T*
+ET
+BT
+1 0 0 1 118.3858 6 Tm
+(Measure code execution time) Tj
+T*
+ET
+BT
+1 0 0 1 313.9764 6 Tm
+(Supporting evidence only\073 not the main performance result\056) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 104.4 m
+530.0787 104.4 l
+S
+n
+0 0 m
+530.0787 0 l
+S
+n
+0 0 m
+0 104.4 l
+S
+n
+530.0787 0 m
+530.0787 104.4 l
+S
+n
+0 87 m
+530.0787 87 l
+S
+n
+0 69.6 m
+530.0787 69.6 l
+S
+n
+0 52.2 m
+530.0787 52.2 l
+S
+n
+0 34.8 m
+530.0787 34.8 l
+S
+n
+0 17.4 m
+530.0787 17.4 l
+S
+n
+113.3858 0 m
+113.3858 104.4 l
+S
+n
+308.9764 0 m
+308.9764 104.4 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 232.9701 cm
+Q
+q
+1 0 0 1 51.35433 190.9701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 27 Tm
+/F1 9 Tf
+12 TL
+-0.006805 Tw
+(Recommended plots\072 \0501\051 SIR cumulative distribution function \050CDF\051 for each strategy\073 \0502\051 blocking probability versus offered) Tj
+T*
+0 Tw
+(traffic\073 \0503\051 estimated capacity versus N\073 and \0504\051 number of sites versus cell radius\056 Use the same random seed and) Tj
+T*
+(subscriber distribution for every strategy\056 Include raw CSV values\054 units\054 parameter settings and sample count\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 164.9701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(TASK 10 \226 Compare Theory with Simulation) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 146.9701 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Aim\072) Tj
+/F1 9 Tf
+( Explain where theoretical estimates and simulated measurements should agree or differ\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 73.17008 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 68.8 530.0787 -17.2 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.2 Tf
+9.2 TL
+ET
+BT
+1 0 0 1 5 57.6 Tm
+(Comparison) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 57.6 Tm
+(Expected agreement \057 difference) Tj
+T*
+ET
+BT
+1 0 0 1 305.4724 57.6 Tm
+(Reason for difference) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.2 Tf
+9.2 TL
+ET
+BT
+1 0 0 1 5 40.4 Tm
+(SIR) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 40.4 Tm
+(Simulation should be near the six\055interferer formula in ideal equal\055distance geometry\056) Tj
+T*
+ET
+BT
+1 0 0 1 305.4724 40.4 Tm
+(Real distances\054 antenna patterns\054 shadowing and finite cell tiers change interference\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.2 Tm
+(Blocking) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 23.2 Tm
+(Erlang\055B should match a loss system with Poisson arrivals and no waiting queue\056) Tj
+T*
+ET
+BT
+1 0 0 1 305.4724 23.2 Tm
+(Non\055Poisson arrivals\054 user activity variation\054 handoff priority and uneven traffic alter blocking\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(Capacity) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 6 Tm
+(Trend should follow channels per cell and number of cells\056) Tj
+T*
+ET
+BT
+1 0 0 1 305.4724 6 Tm
+(Integer channel assignment\054 edge cells\054 control overhead and uneven load reduce usable capacity\056) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 68.8 m
+530.0787 68.8 l
+S
+n
+0 0 m
+0 68.8 l
+S
+n
+530.0787 0 m
+530.0787 68.8 l
+S
+n
+0 0 m
+530.0787 0 l
+S
+n
+0 51.6 m
+530.0787 51.6 l
+S
+n
+0 34.4 m
+530.0787 34.4 l
+S
+n
+0 17.2 m
+530.0787 17.2 l
+S
+n
+96.37795 0 m
+96.37795 68.8 l
+S
+n
+300.4724 0 m
+300.4724 68.8 l
+S
+Q
+Q
+Q
+Q
+
+endstream
+endobj
+21 0 obj
+<<
+/Contents 22 0 R
+/MediaBox [ 0.0 0.0 744.0945 1052.36225 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0.0 0.0 930.118125 1315.45281 ]
+/Parent 2 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 9942
+>>
+stream
+q
+1.25 0.0 0.0 1.25 0.0 0.0 cm
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 8 Tf
+9.6 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 51.02362 34.01575 Tm
+(ITA03\055MP Assignment 1 \226 Worked Answers) Tj
+T*
+ET
+BT
+1 0 0 1 518.9 34.01575 Tm
+(Page 6) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 758.9701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 34.4 530.0787 -17.2 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.2 Tf
+9.2 TL
+ET
+BT
+1 0 0 1 5 23.2 Tm
+(Comparison) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 23.2 Tm
+(Expected agreement \057 difference) Tj
+T*
+ET
+BT
+1 0 0 1 305.4724 23.2 Tm
+(Reason for difference) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.2 Tf
+9.2 TL
+ET
+BT
+1 0 0 1 5 6 Tm
+(Sectoring) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 6 Tm
+(Sector simulation should improve SIR over omni under directional isolation\056) Tj
+T*
+ET
+BT
+1 0 0 1 305.4724 6 Tm
+(Side lobes\054 overlap and incorrect azimuth can reduce the gain\056) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 34.4 m
+530.0787 34.4 l
+S
+n
+0 17.2 m
+0 34.4 l
+S
+n
+0 0 m
+0 17.2 l
+S
+n
+530.0787 17.2 m
+530.0787 34.4 l
+S
+n
+530.0787 0 m
+530.0787 17.2 l
+S
+n
+0 0 m
+530.0787 0 l
+S
+n
+0 17.2 m
+530.0787 17.2 l
+S
+n
+96.37795 17.2 m
+96.37795 34.4 l
+S
+n
+300.4724 17.2 m
+300.4724 34.4 l
+S
+n
+96.37795 0 m
+96.37795 17.2 l
+S
+n
+300.4724 0 m
+300.4724 17.2 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 753.9701 cm
+Q
+q
+1 0 0 1 51.35433 699.9701 cm
+q
+BT
+1 0 0 1 0 39 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Explanation\072) Tj
+/F1 9 Tf
+( The theoretical model is a useful baseline\054 not an exact prediction\056 Differences should be diagnosed rather) Tj
+T*
+(than hidden\056 Compare mean and 5th\055percentile SIR\054 outage\054 blocking and cell\055level load using identical random seeds\056 The) Tj
+T*
+(most scalable practical option is a hybrid\072 macro coverage for broad reach\054 sectoring for interference control\054 and dynamic) Tj
+T*
+(assignment\057small cells for hotspots\056 This balances capacity\054 cost and mobility better than using only one technique\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 673.9701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(TASK 11 \226 Recommend and Defend the Final Design) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 655.9701 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Aim\072) Tj
+/F1 9 Tf
+( Select a practical design for the university township under fixed spectrum\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 589.9701 cm
+q
+BT
+1 0 0 1 0 51 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Explanation\072) Tj
+/F1 9 Tf
+( Recommend a hybrid macro\226micro design using N\0757 as the initial reuse baseline\054 120\260 sectoring at) Tj
+T*
+(high\055demand macro sites\054 and selective microcell splitting in hostels\054 academic blocks and busy road\057stadium hotspots\056) Tj
+T*
+(Begin with R) Tj
+/F3 9 Tf
+12 TL
+(\273) Tj
+/F1 9 Tf
+12 TL
+(0\0565 km as a planning assumption\054 then adjust site locations and radius using propagation surveys\056 Maintain) Tj
+T*
+(the 18 dB SIR target in dense areas\073 where the measured path\055loss exponent and shadowing do not meet it\054 use sectoring\054) Tj
+T*
+(antenna optimisation or smaller cells\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 497.9701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 87 530.0787 -17.4 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.4 Tf
+9.4 TL
+ET
+BT
+1 0 0 1 5 75.6 Tm
+(Demand stage) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 75.6 Tm
+(Traffic) Tj
+T*
+ET
+BT
+1 0 0 1 200.5906 75.6 Tm
+(Recommended action) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.4 Tf
+9.4 TL
+ET
+BT
+1 0 0 1 5 58.2 Tm
+(1\054000 users) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 58.2 Tm
+(25 E) Tj
+T*
+ET
+BT
+1 0 0 1 200.5906 58.2 Tm
+(Initial macro layer\073 monitor traffic and coverage\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 40.8 Tm
+(10\054000 users) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 40.8 Tm
+(250 E) Tj
+T*
+ET
+BT
+1 0 0 1 200.5906 40.8 Tm
+(Add capacity in hotspots\073 sector busy sites and enable dynamic channel assignment\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.4 Tm
+(20\054000 users) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 23.4 Tm
+(500 E) Tj
+T*
+ET
+BT
+1 0 0 1 200.5906 23.4 Tm
+(Selective microcells\057cell splitting\073 optimise handoff and power\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(100\054000\053 users) Tj
+T*
+ET
+BT
+1 0 0 1 101.378 6 Tm
+(2\054500\053 E) Tj
+T*
+ET
+BT
+1 0 0 1 200.5906 6 Tm
+(Dense small\055cell layer\054 careful frequency planning\054 load balancing and ongoing optimisation\073 macro\055only design is not practical\056) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 87 m
+530.0787 87 l
+S
+n
+0 0 m
+530.0787 0 l
+S
+n
+0 0 m
+0 87 l
+S
+n
+530.0787 0 m
+530.0787 87 l
+S
+n
+0 69.6 m
+530.0787 69.6 l
+S
+n
+0 52.2 m
+530.0787 52.2 l
+S
+n
+0 34.8 m
+530.0787 34.8 l
+S
+n
+0 17.4 m
+530.0787 17.4 l
+S
+n
+96.37795 0 m
+96.37795 87 l
+S
+n
+195.5906 0 m
+195.5906 87 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 492.9701 cm
+Q
+q
+1 0 0 1 51.35433 438.9701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 39 Tm
+/F1 9 Tf
+12 TL
+(The hybrid design is preferred because fixed reuse is simple but inflexible\073 sectoring improves SIR but does not alone solve) Tj
+T*
+(highly uneven traffic\073 dynamic assignment improves channel utilisation but needs control coordination\073 microcells provide) Tj
+T*
+-0.041817 Tw
+(local capacity but increase sites\054 handoffs and maintenance\056 The final deployment decision must be supported by measured) Tj
+T*
+0 Tw
+(propagation\054 actual site quotations and the simulator\047s CSV\057plots\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 412.9701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(TASK 12 \226 Day\0554 Design Challenge\072 25\054000\055Person Event) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 394.9701 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F2 9 Tf
+0 0 0 rg
+(Aim\072) Tj
+/F1 9 Tf
+( Re\055evaluate the design for a four\055hour event with 25\054000 attendees in a 1 km\262 stadium zone\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 375.9701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(A\056 Impact analysis) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 333.9701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 27 Tm
+/F1 9 Tf
+12 TL
+(Event traffic \075 25\054000\3270\05605\0751\054250 Erlangs in the stadium zone\056 Traffic density \075 1\054250 E\057km\262\056 Normal per\055subscriber) Tj
+T*
+(demand is 0\056025 E\054 so each attendee generates twice the usual subscriber busy\055hour traffic\056 The event is concentrated in 1) Tj
+T*
+(km\262 for four hours\054 so the original assumptions of uniform\054 steady traffic and permanent capacity no longer hold\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 314.9701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(B\056 Evaluate the original design) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 260.9701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 39 Tm
+/F1 9 Tf
+12 TL
+(At N\0757 there are 48 channels per cell and the illustrative 2\045\055blocking traffic limit is about 35 E per cell\056 Even if the 1 km\262) Tj
+T*
+-0.068104 Tw
+(zone is covered by roughly four cells of 0\0563248 km\262 each\054 the idealized total 2\045\055blocking capacity is only about 4\32735) Tj
+/F3 9 Tf
+12 TL
+(\273) Tj
+/F1 9 Tf
+12 TL
+(140 E\054) Tj
+T*
+0 Tw
+(far below 1\054250 E\056 Reusing the same macro design unchanged would therefore produce severe blocking and local) Tj
+T*
+(congestion\056 Interference and handoff load may also rise as users cluster near entrances and stands\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 241.9701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(C\056 Adaptation \057 redesign) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 169.1701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 68.8 530.0787 -17.2 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.2 Tf
+9.2 TL
+ET
+BT
+1 0 0 1 5 57.6 Tm
+(Option) Tj
+T*
+ET
+BT
+1 0 0 1 112.7165 57.6 Tm
+(Action) Tj
+T*
+ET
+BT
+1 0 0 1 328.1496 57.6 Tm
+(Assessment) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.2 Tf
+9.2 TL
+ET
+BT
+1 0 0 1 5 40.4 Tm
+(Retain unchanged) Tj
+T*
+ET
+BT
+1 0 0 1 112.7165 40.4 Tm
+(Keep existing macro layout and channels) Tj
+T*
+ET
+BT
+1 0 0 1 328.1496 40.4 Tm
+(Not recommended\072 estimated event demand greatly exceeds local traffic capacity\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.2 Tm
+(Temporary event capacity) Tj
+T*
+ET
+BT
+1 0 0 1 112.7165 23.2 Tm
+(Deploy temporary cells\055on\055wheels or portable small cells\073 use directional sectors and dynamic channel assignment) Tj
+T*
+ET
+BT
+1 0 0 1 328.1496 23.2 Tm
+(Recommended for predictable four\055hour surges\073 capacity is placed only where and when required\056) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(Permanent redesign) Tj
+T*
+ET
+BT
+1 0 0 1 112.7165 6 Tm
+(Build permanent microcells throughout the stadium zone) Tj
+T*
+ET
+BT
+1 0 0 1 328.1496 6 Tm
+(Consider only if measurements show frequent non\055event congestion\073 otherwise likely excessive cost\056) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 68.8 m
+530.0787 68.8 l
+S
+n
+0 0 m
+530.0787 0 l
+S
+n
+0 0 m
+0 68.8 l
+S
+n
+530.0787 0 m
+530.0787 68.8 l
+S
+n
+0 51.6 m
+530.0787 51.6 l
+S
+n
+0 34.4 m
+530.0787 34.4 l
+S
+n
+0 17.2 m
+530.0787 17.2 l
+S
+n
+107.7165 0 m
+107.7165 68.8 l
+S
+n
+323.1496 0 m
+323.1496 68.8 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 164.1701 cm
+Q
+q
+1 0 0 1 51.35433 110.1701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 39 Tm
+/F1 9 Tf
+12 TL
+-0.071067 Tw
+(Use a temporary capacity layer with carefully coordinated reuse\054 sector antennas aimed at high\055density areas\054 and power\057tilt) Tj
+T*
+0 Tw
+(tuning to limit spillover interference\056 Reserve channels for handoffs and emergency\057control signalling as required by the) Tj
+T*
+(network\056 Add temporary backhaul and monitor sector\055level load\056 Do not assume that temporary sites can use arbitrary) Tj
+T*
+(frequencies\073 the same SIR and channel coordination checks still apply\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 91.17008 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(D\056 Evidence\055based defence) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 61.17008 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 15 Tm
+/F1 9 Tf
+12 TL
+(The event adds 1\054250 E in only 1 km\262\054 while the simplified four\055cell macro estimate is about 140 E at 2\045 blocking\056 The gap) Tj
+T*
+(is roughly 8\0569 times\056 A temporary solution is more economical than permanent stadium\055wide densification because the) Tj
+T*
+ET
+Q
+Q
+Q
+
+endstream
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0.0 0.0 744.0945 1052.36225 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/CropBox [ 0.0 0.0 930.118125 1315.45281 ]
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 4294
+>>
+stream
+q
+1.25 0.0 0.0 1.25 0.0 0.0 cm
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F1 8 Tf
+9.6 TL
+ET
+0.501961 0.501961 0.501961 rg
+BT
+1 0 0 1 51.02362 34.01575 Tm
+(ITA03\055MP Assignment 1 \226 Worked Answers) Tj
+T*
+ET
+BT
+1 0 0 1 518.9 34.01575 Tm
+(Page 7) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 745.3701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 39 Tm
+/F1 9 Tf
+12 TL
+(surge lasts four hours and occurs about twice per month\056 The operator should compare rental\054 transport\054 installation and) Tj
+T*
+(backhaul costs for temporary sites against the capital and maintenance cost of permanent cells\056 Final number of temporary) Tj
+T*
+(cells must be calculated from their channel count\054 Erlang\055B target\054 antenna coverage and measured SIR\073 the assignment) Tj
+T*
+(data alone do not specify those site costs or radio measurements\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 617.8701 cm
+q
+0.85098 0.917647 0.968627 rg
+n
+0 122.5 530.0787 -17.5 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2 7.5 Tf
+9.5 TL
+ET
+BT
+1 0 0 1 5 111 Tm
+(Event quantity) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 111 Tm
+(Calculation) Tj
+T*
+ET
+BT
+1 0 0 1 328.1496 111 Tm
+(Result) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F1 7.5 Tf
+9.5 TL
+ET
+BT
+1 0 0 1 5 93.5 Tm
+(Total event traffic) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 93.5 Tm
+(25\054000\3270\05605) Tj
+T*
+ET
+BT
+1 0 0 1 328.1496 93.5 Tm
+(1\054250 Erlangs) Tj
+T*
+ET
+BT
+1 0 0 1 5 76 Tm
+(Event zone) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 76 Tm
+(Given) Tj
+T*
+ET
+BT
+1 0 0 1 328.1496 76 Tm
+(1 km\262) Tj
+T*
+ET
+BT
+1 0 0 1 5 58.5 Tm
+(Traffic density) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 58.5 Tm
+(1\054250\0571) Tj
+T*
+ET
+BT
+1 0 0 1 328.1496 58.5 Tm
+(1\054250 Erlangs\057km\262) Tj
+T*
+ET
+BT
+1 0 0 1 5 41 Tm
+(Approx\056 macro cells in 1 km\262) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 41 Tm
+(ceil\0501\0570\0563248\051) Tj
+T*
+ET
+BT
+1 0 0 1 328.1496 41 Tm
+(4 cells) Tj
+T*
+ET
+BT
+1 0 0 1 5 23.5 Tm
+(Illustrative capacity in zone) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 23.5 Tm
+(4\32735 E) Tj
+T*
+ET
+BT
+1 0 0 1 328.1496 23.5 Tm
+/F3 7.5 Tf
+9.5 TL
+(\273) Tj
+/F1 7.5 Tf
+9.5 TL
+(140 Erlangs) Tj
+T*
+ET
+BT
+1 0 0 1 5 6 Tm
+(Demand\057capacity ratio) Tj
+T*
+ET
+BT
+1 0 0 1 138.2283 6 Tm
+(1\054250\057140) Tj
+T*
+ET
+BT
+1 0 0 1 328.1496 6 Tm
+/F3 7.5 Tf
+9.5 TL
+(\273) Tj
+/F1 7.5 Tf
+9.5 TL
+(8\0569) Tj
+T*
+ET
+q
+1 J
+1 j
+0.603922 0.654902 0.698039 RG
+0.35 w
+n
+0 122.5 m
+530.0787 122.5 l
+S
+n
+0 0 m
+530.0787 0 l
+S
+n
+0 0 m
+0 122.5 l
+S
+n
+530.0787 0 m
+530.0787 122.5 l
+S
+n
+0 105 m
+530.0787 105 l
+S
+n
+0 87.5 m
+530.0787 87.5 l
+S
+n
+0 70 m
+530.0787 70 l
+S
+n
+0 52.5 m
+530.0787 52.5 l
+S
+n
+0 35 m
+530.0787 35 l
+S
+n
+0 17.5 m
+530.0787 17.5 l
+S
+n
+133.2283 0 m
+133.2283 122.5 l
+S
+n
+323.1496 0 m
+323.1496 122.5 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 612.8701 cm
+Q
+q
+1 0 0 1 51.35433 586.8701 cm
+q
+0.090196 0.211765 0.364706 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(Conclusion) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 520.8701 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 51 Tm
+/F1 9 Tf
+12 TL
+(A fixed N\0757 reuse plan provides a clear starting point\054 but it cannot support the full growth forecast or the concentrated) Tj
+T*
+(stadium event without additional spatial reuse\056 The recommended approach is a hybrid network\072 macro cells for coverage\054) Tj
+T*
+(sectoring and dynamic channel assignment for efficiency\054 selective microcells for persistent hotspots\054 and temporary event) Tj
+T*
+(cells for short predictable surges\056 All final parameters must be validated with site surveys\054 detailed simulation\054 CSV) Tj
+T*
+(measurements and cost quotations\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 501.8701 cm
+q
+0.141176 0.278431 0.419608 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10.5 Tf
+13 TL
+(References \057 assumptions) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 457.8701 cm
+q
+0.94902 0.956863 0.968627 rg
+n
+-5 -5 502.5669 50 re
+f*
+Q
+q
+0.333333 0.333333 0.333333 rg
+BT
+1 0 0 1 0 32 Tm
+/F1 8 Tf
+10 TL
+-0.085239 Tw
+(The assignment sheet supplies the township area\054 336 channels\054 subscriber forecasts\054 Erlang demand\054 blocking target\054 path\055loss range and) Tj
+T*
+0 Tw
+(event scenario\056 Equations used here are standard cellular\055planning and Erlang\055B relationships\056 The assumed initial radius \0500\0565 km\051\054) Tj
+T*
+(selected N\0757\054 18 dB target\054 simplified sector interferer count and approximate cell count are planning assumptions for this worked example) Tj
+T*
+(and should be labelled as such in the submitted report\056) Tj
+T*
+ET
+Q
+Q
+Q
+
+endstream
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000155 00000 n 
+0000000204 00000 n 
+0000000452 00000 n 
+0000010669 00000 n 
+0000010753 00000 n 
+0000010860 00000 n 
+0000010972 00000 n 
+0000011049 00000 n 
+0000011155 00000 n 
+0000011239 00000 n 
+0000011355 00000 n 
+0000011605 00000 n 
+0000021231 00000 n 
+0000021481 00000 n 
+0000032069 00000 n 
+0000032319 00000 n 
+0000043042 00000 n 
+0000043292 00000 n 
+0000051536 00000 n 
+0000051786 00000 n 
+0000061781 00000 n 
+0000062031 00000 n 
+trailer
+<<
+/Size 25
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+66378
+%%EOF
+3 1 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+ /AF [26 0 R] /Names << /EmbeddedFiles << /Names [(Content Credentials) 26 0 R] >> >> >>
+endobj
+25 0 obj
+<< /Length 24278 /Type /EmbeddedFile /Subtype /application#2Fc2pa >>
+stream
+  ^÷jumb   jumdc2pa  Ä  ™ 8õqc2pa   ^∞jumb   Gjumdc2ma  Ä  ™ 8õqurn:c2pa:51e9650d-1178-4e33-bc3e-0528963a5f4c   †jumb   )jumdc2as  Ä  ™ 8õqc2pa.assertions   	πjumb   #jumd@À2ªäHùß*÷ÙCic2pa.icon    bfdb image/svg+xml   	wbidb<svg width="716" height="716" viewBox="0 0 716 716" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M508.749 317.399C516.777 287.314 508.991 253.884 485.389 230.282C461.788 206.681 428.36 198.895 398.273 206.923C376.231 184.928 343.39 174.956 311.148 183.596C278.906 192.234 255.45 217.292 247.36 247.361C217.291 255.451 192.233 278.91 183.595 311.149C174.957 343.391 184.927 376.232 206.924 398.274C198.896 428.359 206.683 461.789 230.284 485.391C253.885 508.992 287.313 516.779 317.401 508.75C339.442 530.745 372.286 540.717 404.525 532.079C436.767 523.441 460.223 498.384 468.313 468.315C498.383 460.224 523.44 436.766 532.078 404.526C540.716 372.285 530.747 339.443 508.749 317.402V317.399ZM470.899 244.776C486.892 260.77 493.488 282.601 490.687 303.412L415.577 260.046C412.411 258.218 408.509 258.218 405.345 260.046L317.401 310.82V277.526C317.401 275.191 318.652 273.005 320.676 271.837L387.644 233.174C414.178 218.353 448.346 222.223 470.901 244.776H470.899ZM357.837 311.144L398.275 334.491V381.185L357.837 404.532L317.398 381.185V334.491L357.837 311.144ZM264.776 269.693C265.207 239.305 285.644 211.649 316.453 203.393C338.3 197.54 360.505 202.744 377.127 215.573L302.014 258.937C298.848 260.764 296.898 264.144 296.898 267.798V369.346L268.065 352.699C266.043 351.531 264.776 349.353 264.776 347.017V269.691V269.693ZM203.391 316.454C209.244 294.608 224.854 277.978 244.276 269.999V356.73C244.276 360.384 246.226 363.763 249.392 365.591L337.337 416.365L308.503 433.013C306.481 434.181 303.961 434.188 301.939 433.02L234.971 394.357C208.868 378.789 195.138 347.261 203.391 316.454ZM244.775 470.9C228.781 454.906 222.186 433.075 224.986 412.264L300.096 455.63C303.263 457.457 307.164 457.457 310.328 455.63L398.273 404.856V438.149C398.273 440.485 397.022 442.671 394.997 443.839L328.029 482.502C301.495 497.322 267.327 493.452 244.772 470.9H244.775ZM450.897 445.982C450.466 476.371 430.029 504.027 399.22 512.283C377.373 518.136 355.168 512.932 338.547 500.102L413.659 456.738C416.826 454.911 418.775 451.532 418.775 447.877V346.329L447.609 362.977C449.631 364.145 450.897 366.323 450.897 368.659V445.985V445.982ZM512.282 399.221C506.429 421.068 490.819 437.697 471.397 445.676V358.946C471.397 355.292 469.448 351.912 466.281 350.085L378.336 299.311L407.17 282.663C409.192 281.495 411.712 281.487 413.734 282.655L480.702 321.318C506.805 336.887 520.536 368.415 512.282 399.221Z" fill="black"/>
+</svg>
+  jumb   )jumdcbor  Ä  ™ 8õqc2pa.actions.v2    ﬂcbor¢gactionsÅ§factionlc2pa.createdqdigitalSourceTypexFhttp://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMediamsoftwareAgent¢dnameegpt-6gversionegpt-6dwhenx2026-11-19T04:50:47.989633ZrallActionsIncludedÙ   ¶jumb   (jumdcbor  Ä  ™ 8õqc2pa.hash.data    vcbor•jexclusionsÅ¢estart iflength^÷dnamenjumbf manifestcalgfsha256dhashX Ét	!€4qÕ¿q¢ÛÜÂóπ€√◊ 
+∏ˆ¶ÔYoÒ1_cpad@  âjumb   'jumdc2cl  Ä  ™ 8õqc2pa.claim.v2   Zcbor¶jinstanceIDx,xmp:iid:e16e032d-2a57-46e3-b56e-c3dfbda31426tclaim_generator_info£dnamegChatGPTdicon¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„ÒkspecVersione2.2.0isignaturexMself#jumbf=/c2pa/urn:c2pa:51e9650d-1178-4e33-bc3e-0528963a5f4c/c2pa.signaturercreated_assertionsÉ¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„Ò¢curlx*self#jumbf=c2pa.assertions/c2pa.actions.v2dhashX ü5œMÃ°¿≈Ë∆EﬁqâÊ◊•©ÃØµUÜ_Ì0Ï§¢curlx)self#jumbf=c2pa.assertions/c2pa.hash.datadhashX ·ÛOÍOUö°…E˛Lg˘∞⁄}µ‚?Û¸≈˚Â"°D€hdc:titleiimage.pdfcalgfsha256  P8jumb   (jumdc2cs  Ä  ™ 8õqc2pa.signature   Pcbor“ÑYË¢8$!ÇYà0ÇÑ0Çl†•¸ÈpåÚÄ1ÓDds0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260422155105Z270423155104Z0G10	UUS10U
+OpenAI OpCo, LLC10UOpenAI Media Service0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ù∫jLMóÍÅâ∂—æ^XNr°ôﬂiq|Â!#”Å¢5úL£J<Ôn+øÊdÆ◊ÑKi$ZcœÍv
+ê≤e€|<ç·˛¡3wØ'ﬁ; :¥cáòÕMúø¥3D™T07F∏˝öyDsWU£c|›¨X/ÊzÆﬁ•ò√ìNHZ¯‡|§íK’l∫ ¬*»íæu‘îgµW™jöm00,◊Uaåj“S∂ x^ECûNí£ÄÒØ[—≤Î˛ãÔ∫◊7	ï´d-ô…áö¯ø.–ÁcÄñöy†7ì6£5…H…,òcÈDõ5¨πßSlúhs»
+9ÃIÛ £Çg0Çc0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0o+c0a09+0Ü-http://crt-c2pa.ssl.com/SSL.com-C2PA-I-R1.cer0$+0Ühttp://ocsp-c2pa.ssl.com0U 00
++ÉË^0)U%"0 ++$
++ÉË^0UÛùM‘Àùr¯F
+vG•hOt0Uˇ¿0	+ÉË^
++ÉË^
+03	+ÉË^&$019bc403-5cd7-7669-afe6-fdb17177d4280	*ÜHÜ˜ Ç Ç8óle°7 Ò˘Ìt∫’¶[5ıglœ+fi@Õı¸“rVﬂ ï(Í¯fﬁBC=¯x†h(â≠µÓ¸ı2“å∏_ÁlÄnÎ[|ó[0Á.B∏∆pö˛˛ 	¨5F’†åIEÄ√∫íU«Zùo“Îÿyõñ:ºDê44}ÙA•3ó/.lQR
+m=I∞À«ÜXÃ‹Óû.È∆9∏3\ ⁄Ó W3T.p(J%)Oí|.“˙›g.zËPx9Q∫É:⁄à~ê#êíıbXöÂ¬®sÜû≈ÿqÈÔ\d{ëÓ7/vòxVdÁoB—}íºÖjomdÖÿˇ"ñÌπÔ≤–\Ñ}h]5[K±≈iHyÊhé†ƒaò:L¯¿$yÂ¶h‡Ô˝÷ê÷.-AduV_ìî∂°úä<∂¿ËmÛ≈CÁv,h§ÚÊÀãàïË{*r$Å=!∆cm/%Ä£ô[™)•˝GÍ·˜kÂ˚[P&m+°Ç]1ı›b®|2‹L«•,r0PÄWìÇ‚ËÆ≥ßØY4ÆrÔ*ùÆx¨‚3ÏSµ…ô“(®*7°N´¸Ã~Xõ'mE·¥*úΩ0W°1. .…‚»T€°íOæ$5ò˛/i‹∏M„ﬁ/Ëlı¡ä‚”˛rw”®+‘WóÆáÿ æì∂âYS0ÇO0Ç7†'+c»ÃM-õÑQrlÙú^2QÆﬁ0	*ÜHÜ˜ 0O1&0$USSL.com C2PA RSA Root CA 202510U
+SSL Corporation10	UUS0251222181730Z301221181730Z0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç À:¥Õ∏úÀ)V∏yß¯kˆ˘ÿèr√¶ò≠*A⁄a.GRΩtQæ]ÏzÇ∂¿˚˙Ë'•ãË˛bÛ`Ò_H ssï‰NnÃNz5ﬁX·◊Ç‹“GCwõﬂHàyü£9§YN^‡NGóÚuB◊v=∂§"‹Ì∆o‘rFå÷Q«µ∑zÚì˘#'’ÄPuäp†hÈÁºÑ(|ú*Í)©¿/˛…vFU∞/cÍ}ûÙ∞D§@ﬁ@6\DäTkWHˇªo§’Íé¬◊|ÿºŒiø† MìE;ô.y“œûü)ªFŸxc0ñ3Qú^ìm˙Â4JXx≥)l]|∏uï<ôw!{ÿ¥JÎ⁄Õ«
+÷…¢ﬁÆó≥∂Qñ⁄íõ√≤ªPƒ˛∂§Lï]-íjObÂ‡*˜i†ú’πì ⁄—ª^O∆Ø˘)L–…ÏÎÛ≤qP{v'hë˘Pà∏w5ÿÕ°·◊”)ÁJ∆áTY$¬g≤m	5€∫Œ∏F•‡ã⁄·ßüjŒ`“ƒ˜¡ﬁsyU‡p¥ÔÍÃ«˛vâNf
+ià-Ì√F¢*‰å‘úWF-Xb’ ®˙~¯¬ŸajÀ5]†ì£≤e®/ÌÔòÁ¸~∫HÙ™°q¸ìØÍßNsài’B¿˘ÑíÖOÀT≥=:¯›)ey Cûñ∏áXñ!Ô—ë{ £Ç&0Ç"0Uˇ0ˇ 0Uˇ0)U%"0 ++$
++ÉË^0U9=G‹óèØà{MsÕÂÓ§•*0U 00
++ÉË^0U#0Ä¸*Ju:Ä˙ôcìsWÏæì∞}√{0x+l0j0$+0Ühttp://ocsp-c2pa.ssl.com0B+0Ü6http://crt-c2pa.ssl.com/SSL.com-C2PA-Root-2025-RSA.cer0	*ÜHÜ˜ Ç Œ6˙>Ôñ6-éØUfˇ{+ kVıÀ≠Ω*Å≠•¶–M£>ì‰ìi’‰å®nÊ7T‚%úÏef(<3=¢ö¢ªÕgdJÁæt!°n√´&ƒ;,⁄Uπ˝GN‡çxõ7Éƒt;≈GaÔmAr§€]CS…ñNÂ‡:ﬂ®›.—ØXó÷ÁÙ_r#<kœΩ9´åì®èßvY>·íı˜Ÿ˚Fb´nn‘àF†≥/*j_•N⁄¯‘¸ÃŸ£<©wE
+¡˘òπ9ÀÃ°q¿*Çq”‰ˆ%‚Q!m÷ﬂ‰SçoJ}é^¿∫’wy!ÅzŒÌ˜õé∂≤äBVùèkA*˛kúãÓ£(œ_ÛÈ–d÷Ó¬âKÎíœıØ¬'M∏ë°7%ôÊ˝Ä‹Ùº«7{æ¥-gX/Á√≥ãqÂDz0∂•≤u>[#~;”T¶:π«Ã3’j5zÅv/˛W⁄i¯>?ÔTèã{F√cû˙Ìƒ/pÑ+ˆVÇÙßÀ$◊l^${:Ω©X;i≥úè“ptˇãn&ª√´E«SñúGµ∆F´^ı¸àãh£5Â|jïeµ´Îπˇ∫∏‡õJG≤ŒÏ/â}ÓØúMƒ…Œı2=è˜&4˛"ãzÌ˘^^g_Q[€$V˚—Y°∑ﬁöf	∂—Ü.˙}~ïyõDf|6Öˆı£gsigTst2°itstTokensÅ°cvalYã0Çá	*ÜHÜ˜†Çx0Çt10	`ÜHe 0Åá*ÜHÜ˜	†xv0t
++Éø0010	`ÜHe  1}ç…©÷˛x®¶c°eﬂs1¶h◊qœ2s‹¸¸ R∆ÀQvo.mˇ20261119045053.146744Z0Ä	 ƒπ4w\êõ›†Çf0Çˆ0Ç^†a€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ 0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0260408174626Z370709174626Z0u10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Leaf0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ Í ≈≠î˝˝'ü«xßa ˇ)a*˚°àÕ_®¢óùâ/ãë»º∞ñê=UÇ¡ñé6j≠âiËê€,D2É®
+ÕwÂ5ËÓ®d[˛∏‡éùÁ °(√5›ß7È"˜	Móö¥Ñs¿.|©PG(†¥i∞á)zY˛5B˘ŸiRJ 7ÚhÃÒ-∑Çñ KF\=§Ü∏KEf8¢NM' ï∫uÃNájüt√ $_ƒ~\Æ˛ÛïÌ ëﬂ<ıÜõ*^÷–›…˙»M√…ÑZI,‰8s`R∏LÓ∆Û∑∂ÿ›j©Œ ∫]÷ƒ\5dÚ#S?bée]p+‘…k	ÅERËWÌZF]⁄]vú%yhÉQ§òÑuëròUˇÿ„Cb±Ìig'Aº≈èÚj+ÉIË·-4ª9ØgΩ¥ï»≤ΩEgÕràî_UK,≠ØÌ•Ù$Øw>ÉädQèëå9ñK∞=Æ˙ô°>å=æ6°.ıcµ £x0v0Uˇ0 0Uˇ¿0U%ˇ0
++0U§'TÇ¢äÄ{=≈ÜÕ?pŸ¬ÉôQx0U#0ÄÚ∞«T=#CÖ‹ s–rÄ=∏®0	*ÜHÜ˜ ÇÅ  ˚$OA¿¿ºò≤2 ç ôH5OƒFV~ß>?∂•#˘*H>‡QùE@x¡ªÉNìP…õ'ñhﬂMŒÚˆ“y´ÔÍ¡⁄?ıòYÊpÕâÙÓGã™ÀÏˇå~·FÿëÊú∏‰4Fˇa“x¯}89„RÌ_fËs¿ r;‰®´éÜ*£7!˘;ﬂ{\TÿL«j*KœCt`Äs£…—wØá©˝µ±Ñjnøà*Œö°ö´¢ûÇH7≈cQó€R|og…iB’œı˚≠^ãê‚‡y<.Éjû•Ë%AèÖÌ‰¡†:ç˛ùRPÔáﬁ·dÕU˘! ﬂ∂)Ôü'n—∫4F´J"OÁbw›E#›a-¬1)èƒπ~y´¥W‘¡Ïœ·\{eI∞ÎM´§«'@N¶¥µèœ|√¥Cßv”^0cÓ®Æ5(td´Z5„[/:>N
+a÷0MCõˇN.∆!π>:, W0ujédK¢–	—◊†g&Amg¯pv∏%&V˘ë&'√KI0Ç~0Çf†ç ∆≈≈⁄∞ºÒNï•Íº0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174626Z21260409174626Z0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ âº‘π‚»°æaªﬁ<df~ßæúm”©0&<Ù‡k 9ﬂï4Ì©¢eH€7Ü2ÉéÃ
+J†¿Û4l†¿òÕ+ü•ÙÀ|Ÿ&ﬁ~…M¢Ôc[ëÊˆY®“˙N˘Ÿ8+ZÕ`ZòÅò®◊S∆„÷.H¨CW	ÈîÚG˘lEä`∑˜Æ/^¢5NÖ8Öiü4ù–MÿC=Õ4m¸cì¸”pªJËvËjNfI†Ì¸¯æÔö∑®w¨Ô∑8Ãπ‘*3ƒv÷@wÀ˛«]-@”ﬁã<¿÷@AôÀî?,} kR¸û P∑	GE·#U˙±OoTòïÙ}∫¯h·"z‹äëCã∂.C±b†æ $é.Ôø§—MË∏?1œ&=≈ PÍÚŸ$ dÌ’sû.px™ﬁV<˘‘Ä¢Ë≠Øˆ˚®£\Àh´D€0wÚƒ4tkUm∆á˚Ú2<ûqE˜ÏP˚˛÷1&ª–ƒMa‚B€Ø√+n_+Ê‚∞Ôç\DÕ¿s}è¢ÈΩmÇº%eÑ0iÌ £{0y0Uˇ0ˇ 0Uˇ0U%0
++0UÚ∞«T=#CÖ‹ s–rÄ=∏®0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç íÏ7\ﬁlÎd⁄Æ°	0rÆ‹rı;ºz=÷∆·/ˆÉ3}ËW@NLô™k‘ôŸã€k÷L¯ –Y3”°†8\#àD$˚á·ˆì'º°ÌL_g]ˇ5´1“Ï{‘@C7O¬Ñú∫d»∞¢~ö6¯·–Ç≥PC≤‡UΩÄî»YRNJtﬁ]«EXõ∑˙0™;‹Gº’.,π8c,yZ∑›U≠=BﬂàœÒh˛s ‘Z∑ﬁ$óë¿Ág˛‹¶
+Û•F≥QœçØ_„»∏@∆Ω„˘÷Kq–d]Âd¬K¿^w—=«[ûœ{˝îîÁKQ⁄˚dÙ´5îÒˆæ~+›≤ö=P›P√ñdém´sü(;w–óÌoEO±3._FÎÉ∂©aº◊ÇÆ¯Äo¬„i0Êm|:Dí+ò-Ø‹4¡æ•*HÁá»ﬁ8µ3 „ÑPpÒ≤KﬁçOˆë‹_Ö˙ÒÊ—◊ ßÓ¥üˆ!x)Å„pXwÜ§:KóÉFË⁄¬jv…©À!Eæe±†Ü.ÄºYKMõCm¥◊Ñ‡¸’»aêCéjù√Ò!<Ñ]˛;÷ÿ#9E_q˙2˝†ÄïDµO Â√t˝‚NárÜÙQáΩ‘µ+5lí§;kjù∫˝¿;úv¬’9I⁄„î>Pj◊L‚âaùÔÎœ≈√@npz80ÇÊ0ÇŒ†P;lâå$3,è˜Oé˚}ÇÏ0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174625Z21260409174625Z0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ˆíÈ“∫≠û·¨u®Vÿ™±≥jí_ñyıí∑-$¯ø¿Ø`æ¡öÕyö‹lö˛6ö¡ò§?‰,ù∫••Ps≥
+¬˘ÛƒI/xΩ“ÏºÁ?Ùõ—Ú†a¢,â% Q˘%ú“∆/ÙâƒA˛&”m5ÕÏª5`@®ÖQæˆÓêòÒ*ÿùzkjŸ.ŸcÛÂ\)≈Ü"¡ähÕÎ8û©Pñ[#C˚8ˇB|;:°Q/%…H‹1ˇPrÓ|°wÕoÅaÛ?ønË“±¶6‰k2˚˛w®^õ\››1êLéeˇÅÀAŒ(1S CŒHn}÷d≥)‰¥.:∑TZrVWÛ®j}ÔÊa›e»H	Iô2t
+¢Ã›ì S¨#ΩÇÖ ±ÔæÌ°w Ó:F3¢ûÏØÈ1f¥fo≤âì†~ï!ŒA¯^éÈÕπ¿’3]x––'1œP0rs⁄j¬¿ìœ≠‹dáˆ˚Nàvı>Ôˇí,ôw.ˆ‹ò∂ù	:˝Ù	«è_ZÈ~H	+µäÉÚ[<,Øë¢ùA∑Rh—ø∞¿⁄O`ΩÓ)™Ìáçq\(åçà£%cEÿ¸{aèlFT;\…∞ÇØÉ»±#?ü[Ó¢◊Tµ*SÆªÖ€¶˙óûÏÑârÛz@…∂ÖXG[Ò$a9¢Lﬁÿ∆®"Úûø[L,À £f0d0Uˇ0ˇ0Uˇ0UX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç X¯ÅëòÚla˛»Ü÷[Ñ¶÷æ∏¶]]IÀ∏°)Õ-ù∏X˘Ñâ=<¯o’j¥*¢UígÅô^µT˚öFÄ„Q S¿¡àWﬁÔÇU~„Ù}Î&¸Éˇ!®¡¨ﬁ€ì´Õ–0v:ìùŒ™g9.Ätﬂm~v/ÈÍPAã8=lÂ‡>Ó/€dT6^æbE∂—!¥Ä<åÎ⁄ú÷J©’Te[k—X~¿IáÎÎK_í;î◊öÜˆ°YŒG8¨√∞td—¿R;°±{(k·ió¯(;'ˇÆ§û˜eÀ†ÙÍπΩîŒD‚ò±
+HhÓU©!•`è˛ ÷}—{Ü úÛ®x–∆⁄@.»Å\b®*¡˚VÁyéØÏÂ€”p˛FÃc®dÒ<ÈØ•dº^øÖ-∞Œ„π”§◊RªpãÜù˚.ø
+ˆ“U+#B+C\Ï°Ça?œqÌ∞˜óÈ‰À¬<¸¨w∑∂‹ ¡LÈâ≤≤/√~ídúµÑﬁÃñ˝â∞KµC}“È≠Ü˝Ÿ-üΩ Ó¿¥GV#|HëNgâ {b¡…^UÒˆ∆Q#WoÔáæ Fyæî±» (ùïäà&UfRÔŸK∫®ZÈ¬,≠ü√\BÛ°ı'dyqå
+Zû˝π˘Eyp·jµ7ñéX˝EøT%åÉ=Ÿ&3#–Xw¶∏1Çh0Çd0Åì0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	`ÜHe †Ç%0	*ÜHÜ˜	1*ÜHÜ˜	0/	*ÜHÜ˜	1" 5q:ÎÀTò† ÙÁ0'
+‘‡°VïÄ/0À‰I0Å’*ÜHÜ˜	/1Å≈0Å¬0Åø0Åº ΩOπ≤êLÅ6gànÔA·m˛Ÿ"ùø[íJ–¢ƒ`F"z0Åó0§}0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ ÇÄ≠ƒﬁ^`ëö[¯'∆ò®ª≠O#W"¨É¯·∏8¡LÀ¡ƒ.€êi^ˇ‡Ò1Ÿ!‚˘=µ—±‘˘6MBy‘($º•›kuYôc[Ã∫é≈‰ê<·tÀÇq≈cÆ]˚ˆÊ÷u≥‚r~“òÆ˝£©
+ÇkV)XJÒ⁄c=ú+ñ^!LÃêZùâ·#∏ì˘Æ«iÃèµ*6iFûÓá˛j¶`ñ
+”ü5«s‘∫êY,	ær˚wf`E
+Ö°u∂»ì@¯éØ&H`ÖFbú¬)µuÑM{ŸAˇÛd'UŒ4R\7{°WO-52öÉ~DÃÁ6ÙÒÖÑ‚áˇÅJgà(BVØ;é%RyÉH!‹ñú∂ãŒÙÅöá ∫z-g@»µW±XhæÊ˜fl/S Ñ⁄Œ°•é[+⁄ÉH±»”Ûa¬ÖPü˜…C5\≥ú6Ç\∆§¨q…C	à¿2j*LoÎÇ•ºÀ•›∏! u¨‡ÂP«ASÎerVals°hocspValsÅY◊0Ç”
+ †ÇÃ0Ç»	+0Çπ0Çµ0ÅÈ¢mÃ†g\¿ÃwY◊UBÉ≤÷+20261119033845Z0Åò0Åï0I0	+ ﬂÇ7S^Sÿ3±‡=$5ÒuÊ·
+9=G‹óèØà{MsÕÂÓ§•*•¸ÈpåÚÄ1ÓDdsÄ 20261119033845Z†20261126033844Z°"0 0	+020161121033845Z°#0!0	+0PïÏ/‹sY„IõJO0	*ÜHÜ˜ ÇÅ 0≈µ0éﬂNkúÎºb∆À®˜ÇëxO@8+p&Zki]ÁéwËÅh:KÓÌ…˜úJ·ø&˝‘—Â„,^|<:6Y◊Ï”)»•ì‡/ûöˆ-Ç·|\Dw<(˘C”h1+û– ,za@∑ÇöätÁ∏·“uè”*UNæ{B™c¶‰⁄sKVRæ•˝P§£„ø ?7—=(ª{,±¢3çÒnô	»X3vÕr˛—`è6òñ√ò∞o¡‹∑±åú(P]z¶´Dˇ'ˇ‘ÿ\[fBZ6)˜V¥”Nn7éô¬Dm;˜c¢æÆN§GWùn
+ËüÌ	G˘XK,3v_Ç®ç€ïŒN)î;eâ≈‚Ö˛∆Î√=ê≈ÈÌ.≤¸›.]"—3ÉK¶Í%±∑*ô~áûÃE^ëá‚KVπ˙kœ_ãf^òëi°†∞ó…G“ùÔÁôK&õg«`£πèÆƒ™YØùÖÛºi2E˘e=hØ•ø7ÇÎù„†Ç10Ç-0Ç)0Ç†pßπß⁄!ıD–Æ≤D0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0261104111802Z271104111801Z0M10	UUS10U
+SSL Corp1+0)U"SSL.com C2PA ICA R1 OCSP Responder0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ ƒ''â°mˇN/VrWa=XÙúQoŸ|	∫'êIªT#á"úˇ∑j ∏I:ﬁ
+%≈˚‡àI‡•˝∏oÊØD?öÛ[è…A≤“˝Ò3W≠˚è¬-ÍŒ $°|©ä3Ú˚JÜ∆/˝.:°ÁÎøçÜ±tæZãE*≠vµ-∆CÃò‹å›ÿI±ÑØzû°K÷7ÅÆŒùÕ›¿!òπ√n‡9ÍìlnT.Œ(à™6÷:%â>¡˚Bb„nüIàDÑ—£yëO14—º“IZ_Im/PÄé®/Ftp©»g∏BÂqt 6KVt∫√ı¬~Yø÷ÀÁsã*‘Êü"©<qtú‡n[9NÒûÌÖ°Å3$Ilˇ°
+Jg5+∞˛®÷	Uvl¿øz?0•…øÅ|îÚ†≠Qñ`#ä« ¨ˆ£‘—b]˜X`ß¯	e&¥R5Ï˜˚÷ßπ˜É Q©%∆BÖ∆”$4qD_–œ:TÖœ4ﬁSŒ¶&‰©l≠ÄçP¯—≥◊ºwY £Åá0ÅÑ0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0	+0 0U%0
++	0UmÃ†g\¿ÃwY◊UBÉ≤÷+0UˇÄ0	*ÜHÜ˜ Ç ≈–]ıF¢¸ÎAgÜNﬂ_Î7	dh∆=´dcñèÄÜ>π>& W9˙ù^%⁄ÍèSm`0K≈Úñ˜P⁄\Í&ùµK£ªÏ ;ò Gh⁄˚IfØüŒù/—t≥© ∂;À<†6“¿-◊jaº á›:õu>âÀ©Ö‚ë’Ã∞’ı	Tt@œ≈E¯˜¸≈W˚™bÍπˆ!
+òóO' ¨o€èß¨2ePs°ˆå¿.
+ŒÌÊl‚£sÊQ.8íÜÅgæÕúå êØiÎè(m«õÎß˜ÎÖ÷∂®£@ˆ©∑üﬁÆo§6ˆ|V¯HÎØÌA}ª}¸hÅ˚Ï™ì$/‰z#≥&`ıWxïÅ ‡qƒ&07å]ëÑ—VuBøÂ{ÿU¸Ü≠Ê¯bÍ∞›5\îøÈ«'∑‰-7Ò>w±Dài|®›¸¢πÖ>H¥£€n^G6üë0ﬂÅ?:%˙Á1º»qÇBˇö`0\˜√ä=5o
+=Áe¡}ŒH82"HA‡˚y-—3Âv	§˘u&'Ωw%∏ö¶Xyaw«∫«ûK°µµ›â∞£0fG ÈÒh#©aJÅ\”≤©e¢∏´‰I˚gö∆™ÎsœÙâ±9zX∏À´Àïˆ˚|u>«›>FÛ†ws»nˇMºÅ˙Œä[!R¡Ôß„y]…√ªP+Ê¬Ê;cpadY&u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ˆY X`É˚;}5¶≤ﬁ¯Öqì√C‚¿^˚Q‡Î√’Ö5z™tFu÷F%W\°4+vÍSÖHÁ)Ô©M›[fZQMwTßû=56›™òmzS‹Ÿêö˚*éñÄ±,F4YÈü∞ÿ ‰2>ÿÑıÛ7ﬂyù:ÃàÈﬂ3Ø ˘Òac˙ßwåISÏÄ∏-òAÎÔ§tãH©Œ¸˙æ&À.ﬂ√¢!ˆ~M`ı˘¸VÔÔôºa»pÖ√™≠+'¬6∆	/·éÜÈ’©<ÒT•»®ÊssÇÏôãH≠º(û‘Fç"RÉª›(/ø¬>Ve"2:¶5R¢¸QÛ√5¸˝
+endstream
+endobj
+26 0 obj
+<< /AFRelationship /C2PA_Manifest /Desc (Content Credentials) /F (Content Credentials) /EF << /F 25 0 R >> /Subtype (application/c2pa) /Type /Filespec /UF (Content Credentials) >>
+endobj
+xref
+3 1
+0000066957 00001 n 
+25 2
+0000067092 00000 n 
+0000091473 00000 n 
+trailer
+<< /Size 27 /Root 3 1 R /Prev 66378 >>
+startxref
+91669
+%%EOF
